@@ -14,8 +14,6 @@ public class PredmetNabave implements java.io.Serializable
    private java.lang.Integer IDPredmeta;
    @org.kie.api.definition.type.Label("EBN")
    private java.lang.String EBN;
-   @org.kie.api.definition.type.Label("DatumPredmeta")
-   private java.util.Date datumPredmeta;
    @org.kie.api.definition.type.Label("OpisPredmeta")
    private java.lang.String opisPredmeta;
 
@@ -25,10 +23,10 @@ public class PredmetNabave implements java.io.Serializable
    @org.kie.api.definition.type.Label("AzuriranoPortal")
    private java.lang.Boolean azuriranoPortal;
 
-   @org.kie.api.definition.type.Label(value = "ObjavaEOJN")
+   @org.kie.api.definition.type.Label("ObjavaEOJN")
    private java.lang.Boolean objavaEOJN;
 
-   @org.kie.api.definition.type.Label(value = "ObjavaPortal")
+   @org.kie.api.definition.type.Label("ObjavaPortal")
    private java.lang.Boolean objavaPortal;
 
    public PredmetNabave()
@@ -53,16 +51,6 @@ public class PredmetNabave implements java.io.Serializable
    public void setEBN(java.lang.String EBN)
    {
       this.EBN = EBN;
-   }
-
-   public java.util.Date getDatumPredmeta()
-   {
-      return this.datumPredmeta;
-   }
-
-   public void setDatumPredmeta(java.util.Date datumPredmeta)
-   {
-      this.datumPredmeta = datumPredmeta;
    }
 
    public java.lang.String getOpisPredmeta()
@@ -116,14 +104,13 @@ public class PredmetNabave implements java.io.Serializable
    }
 
    public PredmetNabave(java.lang.Integer IDPredmeta, java.lang.String EBN,
-         java.util.Date datumPredmeta, java.lang.String opisPredmeta,
+         java.lang.String opisPredmeta,
          nabavahz.otvoreni.InternaOdluka IDInternaOdluka,
          java.lang.Boolean azuriranoPortal, java.lang.Boolean objavaEOJN,
          java.lang.Boolean objavaPortal)
    {
       this.IDPredmeta = IDPredmeta;
       this.EBN = EBN;
-      this.datumPredmeta = datumPredmeta;
       this.opisPredmeta = opisPredmeta;
       this.IDInternaOdluka = IDInternaOdluka;
       this.azuriranoPortal = azuriranoPortal;
