@@ -38,8 +38,11 @@ public class PredmetNabave implements java.io.Serializable
    @org.kie.api.definition.type.Label("IDPonudaZalba")
    private java.util.List<nabavahz.otvoreni.PonudaZalba> IDPonudaZalba;
 
-   @org.kie.api.definition.type.Label(value = "KontrolaRacunskePogreske")
+   @org.kie.api.definition.type.Label("KontrolaRacunskePogreske")
    private java.lang.Boolean kontrolaRacunskePogreske;
+
+   @org.kie.api.definition.type.Label(value = "IDZapisnikPregledOcjena")
+   private nabavahz.otvoreni.ZapisnikPregledOcjena IDZapisnikPregledOcjena;
 
    public PredmetNabave()
    {
@@ -173,6 +176,17 @@ public class PredmetNabave implements java.io.Serializable
       this.kontrolaRacunskePogreske = kontrolaRacunskePogreske;
    }
 
+   public nabavahz.otvoreni.ZapisnikPregledOcjena getIDZapisnikPregledOcjena()
+   {
+      return this.IDZapisnikPregledOcjena;
+   }
+
+   public void setIDZapisnikPregledOcjena(
+         nabavahz.otvoreni.ZapisnikPregledOcjena IDZapisnikPregledOcjena)
+   {
+      this.IDZapisnikPregledOcjena = IDZapisnikPregledOcjena;
+   }
+
    public PredmetNabave(java.lang.Integer IDPredmeta, java.lang.String EBN,
          java.lang.String OpisPredmeta,
          nabavahz.otvoreni.InternaOdluka IDInternaOdluka,
@@ -180,7 +194,8 @@ public class PredmetNabave implements java.io.Serializable
          java.lang.Boolean ObjavaPortal, java.util.Date DatumPredmeta,
          nabavahz.otvoreni.Pojasnjenje IDPojasnjenje,
          java.util.List<nabavahz.otvoreni.PonudaZalba> IDPonudaZalba,
-         java.lang.Boolean kontrolaRacunskePogreske)
+         java.lang.Boolean kontrolaRacunskePogreske,
+         nabavahz.otvoreni.ZapisnikPregledOcjena IDZapisnikPregledOcjena)
    {
       this.IDPredmeta = IDPredmeta;
       this.EBN = EBN;
@@ -193,6 +208,7 @@ public class PredmetNabave implements java.io.Serializable
       this.IDPojasnjenje = IDPojasnjenje;
       this.IDPonudaZalba = IDPonudaZalba;
       this.kontrolaRacunskePogreske = kontrolaRacunskePogreske;
+      this.IDZapisnikPregledOcjena = IDZapisnikPregledOcjena;
    }
 
 }
