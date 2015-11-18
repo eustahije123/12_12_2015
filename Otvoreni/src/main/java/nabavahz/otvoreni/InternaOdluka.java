@@ -13,9 +13,9 @@ public class InternaOdluka implements java.io.Serializable
    @org.kie.api.definition.type.Label("IDInternaOdluka")
    private java.lang.Integer IDInternaOdluka;
    @org.kie.api.definition.type.Label("DatumInterneOdluke")
-   private java.util.Date datumInterneOdluke;
+   private java.util.Date DatumInterneOdluke;
    @org.kie.api.definition.type.Label("OpisInterneOdluke")
-   private java.lang.String opisInterneOdluke;
+   private java.lang.String OpisInterneOdluke;
 
    @org.kie.api.definition.type.Label(value = "IDPredstavnici")
    private java.util.List<nabavahz.otvoreni.Predstavnici> IDPredstavnici;
@@ -36,22 +36,22 @@ public class InternaOdluka implements java.io.Serializable
 
    public java.util.Date getDatumInterneOdluke()
    {
-      return this.datumInterneOdluke;
+      return this.DatumInterneOdluke;
    }
 
    public void setDatumInterneOdluke(java.util.Date datumInterneOdluke)
    {
-      this.datumInterneOdluke = datumInterneOdluke;
+      this.DatumInterneOdluke = datumInterneOdluke;
    }
 
    public java.lang.String getOpisInterneOdluke()
    {
-      return this.opisInterneOdluke;
+      return this.OpisInterneOdluke;
    }
 
    public void setOpisInterneOdluke(java.lang.String opisInterneOdluke)
    {
-      this.opisInterneOdluke = opisInterneOdluke;
+      this.OpisInterneOdluke = opisInterneOdluke;
    }
 
    public java.util.List<nabavahz.otvoreni.Predstavnici> getIDPredstavnici()
@@ -70,8 +70,8 @@ public class InternaOdluka implements java.io.Serializable
          java.util.List<nabavahz.otvoreni.Predstavnici> IDPredstavnici)
    {
       this.IDInternaOdluka = IDInternaOdluka;
-      this.datumInterneOdluke = datumInterneOdluke;
-      this.opisInterneOdluke = opisInterneOdluke;
+      this.DatumInterneOdluke = datumInterneOdluke;
+      this.OpisInterneOdluke = opisInterneOdluke;
       this.IDPredstavnici = IDPredstavnici;
    }
 
