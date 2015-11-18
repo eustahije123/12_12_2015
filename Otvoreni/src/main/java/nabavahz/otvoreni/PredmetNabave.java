@@ -15,22 +15,22 @@ public class PredmetNabave implements java.io.Serializable
    @org.kie.api.definition.type.Label("EBN")
    private java.lang.String EBN;
    @org.kie.api.definition.type.Label("OpisPredmeta")
-   private java.lang.String opisPredmeta;
+   private java.lang.String OpisPredmeta;
 
    @org.kie.api.definition.type.Label("IDInternaOdluka")
    private nabavahz.otvoreni.InternaOdluka IDInternaOdluka;
 
    @org.kie.api.definition.type.Label("AzuriranoPortal")
-   private java.lang.Boolean azuriranoPortal;
+   private java.lang.Boolean AzuriranoPortal;
 
    @org.kie.api.definition.type.Label("ObjavaEOJN")
-   private java.lang.Boolean objavaEOJN;
+   private java.lang.Boolean ObjavaEOJN;
 
    @org.kie.api.definition.type.Label("ObjavaPortal")
    private java.lang.Boolean objavaPortal;
 
    @org.kie.api.definition.type.Label(value = "DatumPredmeta")
-   private java.util.Date datumPredmeta;
+   private java.util.Date DatumPredmeta;
 
    public PredmetNabave()
    {
@@ -58,12 +58,12 @@ public class PredmetNabave implements java.io.Serializable
 
    public java.lang.String getOpisPredmeta()
    {
-      return this.opisPredmeta;
+      return this.PpisPredmeta;
    }
 
    public void setOpisPredmeta(java.lang.String opisPredmeta)
    {
-      this.opisPredmeta = opisPredmeta;
+      this.OpisPredmeta = opisPredmeta;
    }
 
    public nabavahz.otvoreni.InternaOdluka getIDInternaOdluka()
@@ -78,42 +78,42 @@ public class PredmetNabave implements java.io.Serializable
 
    public java.lang.Boolean getAzuriranoPortal()
    {
-      return this.azuriranoPortal;
+      return this.AzuriranoPortal;
    }
 
    public void setAzuriranoPortal(java.lang.Boolean azuriranoPortal)
    {
-      this.azuriranoPortal = azuriranoPortal;
+      this.AzuriranoPortal = azuriranoPortal;
    }
 
    public java.lang.Boolean getObjavaEOJN()
    {
-      return this.objavaEOJN;
+      return this.ObjavaEOJN;
    }
 
    public void setObjavaEOJN(java.lang.Boolean objavaEOJN)
    {
-      this.objavaEOJN = objavaEOJN;
+      this.ObjavaEOJN = objavaEOJN;
    }
 
    public java.lang.Boolean getObjavaPortal()
    {
-      return this.objavaPortal;
+      return this.ObjavaPortal;
    }
 
    public void setObjavaPortal(java.lang.Boolean objavaPortal)
    {
-      this.objavaPortal = objavaPortal;
+      this.ObjavaPortal = objavaPortal;
    }
 
    public java.util.Date getDatumPredmeta()
    {
-      return this.datumPredmeta;
+      return this.DatumPredmeta;
    }
 
    public void setDatumPredmeta(java.util.Date datumPredmeta)
    {
-      this.datumPredmeta = datumPredmeta;
+      this.DatumPredmeta = datumPredmeta;
    }
 
    public PredmetNabave(java.lang.Integer IDPredmeta, java.lang.String EBN,
@@ -124,12 +124,12 @@ public class PredmetNabave implements java.io.Serializable
    {
       this.IDPredmeta = IDPredmeta;
       this.EBN = EBN;
-      this.opisPredmeta = opisPredmeta;
+      this.OpisPredmeta = opisPredmeta;
       this.IDInternaOdluka = IDInternaOdluka;
-      this.azuriranoPortal = azuriranoPortal;
-      this.objavaEOJN = objavaEOJN;
-      this.objavaPortal = objavaPortal;
-      this.datumPredmeta = datumPredmeta;
+      this.AzuriranoPortal = azuriranoPortal;
+      this.ObjavaEOJN = objavaEOJN;
+      this.ObjavaPortal = objavaPortal;
+      this.DatumPredmeta = datumPredmeta;
    }
 
 }
