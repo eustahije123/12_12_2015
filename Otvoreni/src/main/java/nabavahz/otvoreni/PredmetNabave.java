@@ -27,7 +27,7 @@ public class PredmetNabave implements java.io.Serializable
    private java.lang.Boolean ObjavaEOJN;
 
    @org.kie.api.definition.type.Label("ObjavaPortal")
-   private java.lang.Boolean objavaPortal;
+   private java.lang.Boolean ObjavaPortal;
 
    @org.kie.api.definition.type.Label(value = "DatumPredmeta")
    private java.util.Date DatumPredmeta;
@@ -58,7 +58,7 @@ public class PredmetNabave implements java.io.Serializable
 
    public java.lang.String getOpisPredmeta()
    {
-      return this.PpisPredmeta;
+      return this.OpisPredmeta;
    }
 
    public void setOpisPredmeta(java.lang.String opisPredmeta)
