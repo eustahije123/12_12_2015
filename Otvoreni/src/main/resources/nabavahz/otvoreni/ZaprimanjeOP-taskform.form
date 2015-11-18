@@ -23,7 +23,7 @@
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
-<property name="defaultValueFormula" value="= new java.util.Date(&quot;20150815&quot;)"/>
+<property name="defaultValueFormula" value="= new java.util.Date(&quot;2015/08/15&quot;)"/>
 <property name="inputBinding" value="predmet_nabave_in/DatumPredmeta"/>
 <property name="outputBinding" value="predmet_nabave_out/DatumPredmeta"/>
 <property name="fieldClass" value="java.util.Date"/>
