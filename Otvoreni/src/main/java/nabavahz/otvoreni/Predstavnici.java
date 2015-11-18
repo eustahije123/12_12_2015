@@ -13,9 +13,9 @@ public class Predstavnici implements java.io.Serializable
    @org.kie.api.definition.type.Label(value = "IDPredstavnika")
    private java.lang.Integer IDPredstavnika;
    @org.kie.api.definition.type.Label(value = "Ime")
-   private java.lang.String ime;
+   private java.lang.String Ime;
    @org.kie.api.definition.type.Label(value = "Prezime")
-   private java.lang.String prezime;
+   private java.lang.String Prezime;
 
    public Predstavnici()
    {
@@ -33,30 +33,30 @@ public class Predstavnici implements java.io.Serializable
 
    public java.lang.String getIme()
    {
-      return this.ime;
+      return this.Ime;
    }
 
    public void setIme(java.lang.String ime)
    {
-      this.ime = ime;
+      this.Ime = ime;
    }
 
    public java.lang.String getPrezime()
    {
-      return this.prezime;
+      return this.Prezime;
    }
 
    public void setPrezime(java.lang.String prezime)
    {
-      this.prezime = prezime;
+      this.Prezime = prezime;
    }
 
    public Predstavnici(java.lang.Integer IDPredstavnika, java.lang.String ime,
          java.lang.String prezime)
    {
       this.IDPredstavnika = IDPredstavnika;
-      this.ime = ime;
-      this.prezime = prezime;
+      this.Ime = ime;
+      this.Prezime = prezime;
    }
 
 }
