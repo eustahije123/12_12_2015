@@ -39,13 +39,13 @@ public class PredmetNabave implements java.io.Serializable
    private java.util.List<nabavahz.otvoreni.PonudaZalba> IDPonudaZalba;
 
    @org.kie.api.definition.type.Label("KontrolaRacunskePogreske")
-   private java.lang.Boolean kontrolaRacunskePogreske;
+   private java.lang.Boolean KontrolaRacunskePogreske;
 
    @org.kie.api.definition.type.Label("IDZapisnikPregledOcjena")
    private nabavahz.otvoreni.ZapisnikPregledOcjena IDZapisnikPregledOcjena;
 
    @org.kie.api.definition.type.Label(value = "OdlukaOdabirZalba")
-   private java.lang.Boolean odlukaOdabirZalba;
+   private java.lang.Boolean OdlukaOdabirZalba;
 
    public PredmetNabave()
    {
@@ -170,13 +170,13 @@ public class PredmetNabave implements java.io.Serializable
 
    public java.lang.Boolean getKontrolaRacunskePogreske()
    {
-      return this.kontrolaRacunskePogreske;
+      return this.KontrolaRacunskePogreske;
    }
 
    public void setKontrolaRacunskePogreske(
          java.lang.Boolean kontrolaRacunskePogreske)
    {
-      this.kontrolaRacunskePogreske = kontrolaRacunskePogreske;
+      this.KontrolaRacunskePogreske = kontrolaRacunskePogreske;
    }
 
    public nabavahz.otvoreni.ZapisnikPregledOcjena getIDZapisnikPregledOcjena()
@@ -192,12 +192,12 @@ public class PredmetNabave implements java.io.Serializable
 
    public java.lang.Boolean getOdlukaOdabirZalba()
    {
-      return this.odlukaOdabirZalba;
+      return this.OdlukaOdabirZalba;
    }
 
    public void setOdlukaOdabirZalba(java.lang.Boolean odlukaOdabirZalba)
    {
-      this.odlukaOdabirZalba = odlukaOdabirZalba;
+      this.OdlukaOdabirZalba = odlukaOdabirZalba;
    }
 
    public PredmetNabave(java.lang.Integer IDPredmeta, java.lang.String EBN,
