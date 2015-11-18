@@ -221,9 +221,9 @@ public class PredmetNabave implements java.io.Serializable
       this.DatumPredmeta = DatumPredmeta;
       this.IDPojasnjenje = IDPojasnjenje;
       this.IDPonudaZalba = IDPonudaZalba;
-      this.kontrolaRacunskePogreske = kontrolaRacunskePogreske;
+      this.KontrolaRacunskePogreske = kontrolaRacunskePogreske;
       this.IDZapisnikPregledOcjena = IDZapisnikPregledOcjena;
-      this.odlukaOdabirZalba = odlukaOdabirZalba;
+      this.OdlukaOdabirZalba = odlukaOdabirZalba;
    }
 
 }
