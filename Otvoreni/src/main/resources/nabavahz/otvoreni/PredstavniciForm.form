@@ -3,15 +3,16 @@
 <property name="name" value="PredstavniciForm.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="IDPredstavnika_Ime" type="InputText" id="1938858993">
+<field position="1" name="IDPredstavnika_Ime" type="InputText" id="1938858993">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;enquot;,quot;Ime (IDPredstavnika)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="predstavnik_in/Ime"/>
 <property name="outputBinding" value="predstavnik_out/Ime"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="1" name="IDPredstavnika_Prezime" type="InputText" id="1937079325">
+<field position="2" name="IDPredstavnika_Prezime" type="InputText" id="1937079325">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;enquot;,quot;Prezime (IDPredstavnika)quot;"/>
@@ -19,6 +20,21 @@
 <property name="inputBinding" value="predstavnik_in/Prezime"/>
 <property name="outputBinding" value="predstavnik_out/Prezime"/>
 <property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="96035108">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h2&gt;Unos predstavnika&lt;/h2&gt;
+quot;quot;dequot;,quot;&lt;h2&gt;Unos predstavnika&lt;/h2&gt;
+quot;quot;enquot;,quot;&lt;h2&gt;Unos predstavnika&lt;/h2&gt;
+quot;quot;esquot;,quot;&lt;h2&gt;Unos predstavnika&lt;/h2&gt;
+quot;quot;frquot;,quot;&lt;h2&gt;Unos predstavnika&lt;/h2&gt;
+quot;quot;jaquot;,quot;&lt;h2&gt;Unos predstavnika&lt;/h2&gt;
+quot;quot;ptquot;,quot;&lt;h2&gt;Unos predstavnika&lt;/h2&gt;
+quot;quot;zhquot;,quot;&lt;h2&gt;Unos predstavnika&lt;/h2&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
 </field>
 <dataHolder inputId="predstavnik_in" name="#E9E371" type="dataModelerEntry" outId="predstavnik_out" value="nabavahz.otvoreni.Predstavnici" id="IDPredstavnika"/>
 </form>
