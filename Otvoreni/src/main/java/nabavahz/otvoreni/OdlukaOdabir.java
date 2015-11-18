@@ -13,9 +13,9 @@ public class OdlukaOdabir implements java.io.Serializable
    @org.kie.api.definition.type.Label(value = "IDOdlukaOdabir")
    private java.lang.Integer IDOdlukaOdabir;
    @org.kie.api.definition.type.Label(value = "OpisOdabirOdluka")
-   private java.lang.String opisOdlukaOdabir;
+   private java.lang.String OpisOdlukaOdabir;
    @org.kie.api.definition.type.Label(value = "DatumOdabirOdluka")
-   private java.util.Date datumOdabirOdluka;
+   private java.util.Date DatumOdabirOdluka;
 
    public OdlukaOdabir()
    {
@@ -33,30 +33,30 @@ public class OdlukaOdabir implements java.io.Serializable
 
    public java.lang.String getOpisOdlukaOdabir()
    {
-      return this.opisOdlukaOdabir;
+      return this.OpisOdlukaOdabir;
    }
 
    public void setOpisOdlukaOdabir(java.lang.String opisOdlukaOdabir)
    {
-      this.opisOdlukaOdabir = opisOdlukaOdabir;
+      this.OpisOdlukaOdabir = opisOdlukaOdabir;
    }
 
    public java.util.Date getDatumOdabirOdluka()
    {
-      return this.datumOdabirOdluka;
+      return this.DatumOdabirOdluka;
    }
 
    public void setDatumOdabirOdluka(java.util.Date datumOdabirOdluka)
    {
-      this.datumOdabirOdluka = datumOdabirOdluka;
+      this.DatumOdabirOdluka = datumOdabirOdluka;
    }
 
    public OdlukaOdabir(java.lang.Integer IDOdlukaOdabir,
          java.lang.String opisOdlukaOdabir, java.util.Date datumOdabirOdluka)
    {
       this.IDOdlukaOdabir = IDOdlukaOdabir;
-      this.opisOdlukaOdabir = opisOdlukaOdabir;
-      this.datumOdabirOdluka = datumOdabirOdluka;
+      this.OpisOdlukaOdabir = opisOdlukaOdabir;
+      this.DatumOdabirOdluka = datumOdabirOdluka;
    }
 
 }
