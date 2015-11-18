@@ -10,14 +10,17 @@ public class PredmetNabave implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "IDPredmeta")
+   @org.kie.api.definition.type.Label("IDPredmeta")
    private java.lang.Integer IDPredmeta;
-   @org.kie.api.definition.type.Label(value = "EBN")
+   @org.kie.api.definition.type.Label("EBN")
    private java.lang.String EBN;
-   @org.kie.api.definition.type.Label(value = "DatumPredmeta")
+   @org.kie.api.definition.type.Label("DatumPredmeta")
    private java.util.Date datumPredmeta;
-   @org.kie.api.definition.type.Label(value = "OpisPredmeta")
+   @org.kie.api.definition.type.Label("OpisPredmeta")
    private java.lang.String opisPredmeta;
+
+   @org.kie.api.definition.type.Label(value = "IDInternaOdluka")
+   private nabavahz.otvoreni.InternaOdluka IDInternaOdluka;
 
    public PredmetNabave()
    {
@@ -63,13 +66,25 @@ public class PredmetNabave implements java.io.Serializable
       this.opisPredmeta = opisPredmeta;
    }
 
+   public nabavahz.otvoreni.InternaOdluka getIDInternaOdluka()
+   {
+      return this.IDInternaOdluka;
+   }
+
+   public void setIDInternaOdluka(nabavahz.otvoreni.InternaOdluka IDInternaOdluka)
+   {
+      this.IDInternaOdluka = IDInternaOdluka;
+   }
+
    public PredmetNabave(java.lang.Integer IDPredmeta, java.lang.String EBN,
-         java.util.Date datumPredmeta, java.lang.String opisPredmeta)
+         java.util.Date datumPredmeta, java.lang.String opisPredmeta,
+         nabavahz.otvoreni.InternaOdluka IDInternaOdluka)
    {
       this.IDPredmeta = IDPredmeta;
       this.EBN = EBN;
       this.datumPredmeta = datumPredmeta;
       this.opisPredmeta = opisPredmeta;
+      this.IDInternaOdluka = IDInternaOdluka;
    }
 
 }
