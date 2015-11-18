@@ -29,8 +29,11 @@ public class PredmetNabave implements java.io.Serializable
    @org.kie.api.definition.type.Label("ObjavaPortal")
    private java.lang.Boolean ObjavaPortal;
 
-   @org.kie.api.definition.type.Label(value = "DatumPredmeta")
+   @org.kie.api.definition.type.Label("DatumPredmeta")
    private java.util.Date DatumPredmeta;
+
+   @org.kie.api.definition.type.Label(value = "IDPojasnjenje")
+   private nabavahz.otvoreni.Pojasnjenje IDPojasnjenje;
 
    public PredmetNabave()
    {
@@ -130,6 +133,34 @@ public class PredmetNabave implements java.io.Serializable
       this.ObjavaEOJN = objavaEOJN;
       this.ObjavaPortal = objavaPortal;
       this.DatumPredmeta = datumPredmeta;
+   }
+
+   public nabavahz.otvoreni.Pojasnjenje getIDPojasnjenje()
+   {
+      return this.IDPojasnjenje;
+   }
+
+   public void setIDPojasnjenje(nabavahz.otvoreni.Pojasnjenje IDPojasnjenje)
+   {
+      this.IDPojasnjenje = IDPojasnjenje;
+   }
+
+   public PredmetNabave(java.lang.Integer IDPredmeta, java.lang.String EBN,
+         java.lang.String OpisPredmeta,
+         nabavahz.otvoreni.InternaOdluka IDInternaOdluka,
+         java.lang.Boolean AzuriranoPortal, java.lang.Boolean ObjavaEOJN,
+         java.lang.Boolean ObjavaPortal, java.util.Date DatumPredmeta,
+         nabavahz.otvoreni.Pojasnjenje IDPojasnjenje)
+   {
+      this.IDPredmeta = IDPredmeta;
+      this.EBN = EBN;
+      this.OpisPredmeta = OpisPredmeta;
+      this.IDInternaOdluka = IDInternaOdluka;
+      this.AzuriranoPortal = AzuriranoPortal;
+      this.ObjavaEOJN = ObjavaEOJN;
+      this.ObjavaPortal = ObjavaPortal;
+      this.DatumPredmeta = DatumPredmeta;
+      this.IDPojasnjenje = IDPojasnjenje;
    }
 
 }
