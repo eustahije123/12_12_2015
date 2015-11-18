@@ -29,6 +29,9 @@ public class PredmetNabave implements java.io.Serializable
    @org.kie.api.definition.type.Label("ObjavaPortal")
    private java.lang.Boolean objavaPortal;
 
+   @org.kie.api.definition.type.Label(value = "DatumPredmeta")
+   private java.util.Date datumPredmeta;
+
    public PredmetNabave()
    {
    }
@@ -103,11 +106,21 @@ public class PredmetNabave implements java.io.Serializable
       this.objavaPortal = objavaPortal;
    }
 
+   public java.util.Date getDatumPredmeta()
+   {
+      return this.datumPredmeta;
+   }
+
+   public void setDatumPredmeta(java.util.Date datumPredmeta)
+   {
+      this.datumPredmeta = datumPredmeta;
+   }
+
    public PredmetNabave(java.lang.Integer IDPredmeta, java.lang.String EBN,
          java.lang.String opisPredmeta,
          nabavahz.otvoreni.InternaOdluka IDInternaOdluka,
          java.lang.Boolean azuriranoPortal, java.lang.Boolean objavaEOJN,
-         java.lang.Boolean objavaPortal)
+         java.lang.Boolean objavaPortal, java.util.Date datumPredmeta)
    {
       this.IDPredmeta = IDPredmeta;
       this.EBN = EBN;
@@ -116,6 +129,7 @@ public class PredmetNabave implements java.io.Serializable
       this.azuriranoPortal = azuriranoPortal;
       this.objavaEOJN = objavaEOJN;
       this.objavaPortal = objavaPortal;
+      this.datumPredmeta = datumPredmeta;
    }
 
 }
