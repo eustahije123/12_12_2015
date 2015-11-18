@@ -13,9 +13,9 @@ public class Pojasnjenje implements java.io.Serializable
    @org.kie.api.definition.type.Label(value = "IDPojasnjenja")
    private java.lang.Integer IDPojasnjenja;
    @org.kie.api.definition.type.Label(value = "OpisPojasnjenja")
-   private java.lang.String opisPojasnjenja;
+   private java.lang.String OpisPojasnjenja;
    @org.kie.api.definition.type.Label(value = "DatumPojasnjenja")
-   private java.util.Date datumPojasnjenja;
+   private java.util.Date DatumPojasnjenja;
 
    public Pojasnjenje()
    {
@@ -33,30 +33,30 @@ public class Pojasnjenje implements java.io.Serializable
 
    public java.lang.String getOpisPojasnjenja()
    {
-      return this.opisPojasnjenja;
+      return this.OpisPojasnjenja;
    }
 
    public void setOpisPojasnjenja(java.lang.String opisPojasnjenja)
    {
-      this.opisPojasnjenja = opisPojasnjenja;
+      this.OpisPojasnjenja = opisPojasnjenja;
    }
 
    public java.util.Date getDatumPojasnjenja()
    {
-      return this.datumPojasnjenja;
+      return this.DatumPojasnjenja;
    }
 
    public void setDatumPojasnjenja(java.util.Date datumPojasnjenja)
    {
-      this.datumPojasnjenja = datumPojasnjenja;
+      this.DatumPojasnjenja = datumPojasnjenja;
    }
 
    public Pojasnjenje(java.lang.Integer IDPojasnjenja,
          java.lang.String opisPojasnjenja, java.util.Date datumPojasnjenja)
    {
       this.IDPojasnjenja = IDPojasnjenja;
-      this.opisPojasnjenja = opisPojasnjenja;
-      this.datumPojasnjenja = datumPojasnjenja;
+      this.OpisPojasnjenja = opisPojasnjenja;
+      this.DatumPojasnjenja = datumPojasnjenja;
    }
 
 }
