@@ -32,8 +32,11 @@ public class PredmetNabave implements java.io.Serializable
    @org.kie.api.definition.type.Label("DatumPredmeta")
    private java.util.Date DatumPredmeta;
 
-   @org.kie.api.definition.type.Label(value = "IDPojasnjenje")
+   @org.kie.api.definition.type.Label("IDPojasnjenje")
    private nabavahz.otvoreni.Pojasnjenje IDPojasnjenje;
+
+   @org.kie.api.definition.type.Label(value = "IDPonudaZalba")
+   private java.util.List<nabavahz.otvoreni.PonudaZalba> IDPonudaZalba;
 
    public PredmetNabave()
    {
@@ -145,12 +148,24 @@ public class PredmetNabave implements java.io.Serializable
       this.IDPojasnjenje = IDPojasnjenje;
    }
 
+   public java.util.List<nabavahz.otvoreni.PonudaZalba> getIDPonudaZalba()
+   {
+      return this.IDPonudaZalba;
+   }
+
+   public void setIDPonudaZalba(
+         java.util.List<nabavahz.otvoreni.PonudaZalba> IDPonudaZalba)
+   {
+      this.IDPonudaZalba = IDPonudaZalba;
+   }
+
    public PredmetNabave(java.lang.Integer IDPredmeta, java.lang.String EBN,
          java.lang.String OpisPredmeta,
          nabavahz.otvoreni.InternaOdluka IDInternaOdluka,
          java.lang.Boolean AzuriranoPortal, java.lang.Boolean ObjavaEOJN,
          java.lang.Boolean ObjavaPortal, java.util.Date DatumPredmeta,
-         nabavahz.otvoreni.Pojasnjenje IDPojasnjenje)
+         nabavahz.otvoreni.Pojasnjenje IDPojasnjenje,
+         java.util.List<nabavahz.otvoreni.PonudaZalba> IDPonudaZalba)
    {
       this.IDPredmeta = IDPredmeta;
       this.EBN = EBN;
@@ -161,6 +176,7 @@ public class PredmetNabave implements java.io.Serializable
       this.ObjavaPortal = ObjavaPortal;
       this.DatumPredmeta = DatumPredmeta;
       this.IDPojasnjenje = IDPojasnjenje;
+      this.IDPonudaZalba = IDPonudaZalba;
    }
 
 }
