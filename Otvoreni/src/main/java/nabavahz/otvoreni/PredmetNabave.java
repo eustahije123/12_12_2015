@@ -19,8 +19,11 @@ public class PredmetNabave implements java.io.Serializable
    @org.kie.api.definition.type.Label("OpisPredmeta")
    private java.lang.String opisPredmeta;
 
-   @org.kie.api.definition.type.Label(value = "IDInternaOdluka")
+   @org.kie.api.definition.type.Label("IDInternaOdluka")
    private nabavahz.otvoreni.InternaOdluka IDInternaOdluka;
+
+   @org.kie.api.definition.type.Label(value = "AzuriranoPortal")
+   private java.lang.Boolean azuriranoPortal;
 
    public PredmetNabave()
    {
@@ -76,15 +79,27 @@ public class PredmetNabave implements java.io.Serializable
       this.IDInternaOdluka = IDInternaOdluka;
    }
 
+   public java.lang.Boolean getAzuriranoPortal()
+   {
+      return this.azuriranoPortal;
+   }
+
+   public void setAzuriranoPortal(java.lang.Boolean azuriranoPortal)
+   {
+      this.azuriranoPortal = azuriranoPortal;
+   }
+
    public PredmetNabave(java.lang.Integer IDPredmeta, java.lang.String EBN,
          java.util.Date datumPredmeta, java.lang.String opisPredmeta,
-         nabavahz.otvoreni.InternaOdluka IDInternaOdluka)
+         nabavahz.otvoreni.InternaOdluka IDInternaOdluka,
+         java.lang.Boolean azuriranoPortal)
    {
       this.IDPredmeta = IDPredmeta;
       this.EBN = EBN;
       this.datumPredmeta = datumPredmeta;
       this.opisPredmeta = opisPredmeta;
       this.IDInternaOdluka = IDInternaOdluka;
+      this.azuriranoPortal = azuriranoPortal;
    }
 
 }
