@@ -22,8 +22,14 @@ public class PredmetNabave implements java.io.Serializable
    @org.kie.api.definition.type.Label("IDInternaOdluka")
    private nabavahz.otvoreni.InternaOdluka IDInternaOdluka;
 
-   @org.kie.api.definition.type.Label(value = "AzuriranoPortal")
+   @org.kie.api.definition.type.Label("AzuriranoPortal")
    private java.lang.Boolean azuriranoPortal;
+
+   @org.kie.api.definition.type.Label(value = "ObjavaEOJN")
+   private java.lang.Boolean objavaEOJN;
+
+   @org.kie.api.definition.type.Label(value = "ObjavaPortal")
+   private java.lang.Boolean objavaPortal;
 
    public PredmetNabave()
    {
@@ -89,10 +95,31 @@ public class PredmetNabave implements java.io.Serializable
       this.azuriranoPortal = azuriranoPortal;
    }
 
+   public java.lang.Boolean getObjavaEOJN()
+   {
+      return this.objavaEOJN;
+   }
+
+   public void setObjavaEOJN(java.lang.Boolean objavaEOJN)
+   {
+      this.objavaEOJN = objavaEOJN;
+   }
+
+   public java.lang.Boolean getObjavaPortal()
+   {
+      return this.objavaPortal;
+   }
+
+   public void setObjavaPortal(java.lang.Boolean objavaPortal)
+   {
+      this.objavaPortal = objavaPortal;
+   }
+
    public PredmetNabave(java.lang.Integer IDPredmeta, java.lang.String EBN,
          java.util.Date datumPredmeta, java.lang.String opisPredmeta,
          nabavahz.otvoreni.InternaOdluka IDInternaOdluka,
-         java.lang.Boolean azuriranoPortal)
+         java.lang.Boolean azuriranoPortal, java.lang.Boolean objavaEOJN,
+         java.lang.Boolean objavaPortal)
    {
       this.IDPredmeta = IDPredmeta;
       this.EBN = EBN;
@@ -100,6 +127,8 @@ public class PredmetNabave implements java.io.Serializable
       this.opisPredmeta = opisPredmeta;
       this.IDInternaOdluka = IDInternaOdluka;
       this.azuriranoPortal = azuriranoPortal;
+      this.objavaEOJN = objavaEOJN;
+      this.objavaPortal = objavaPortal;
    }
 
 }
