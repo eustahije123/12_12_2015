@@ -13,9 +13,9 @@ public class ZapisnikPregledOcjena implements java.io.Serializable
    @org.kie.api.definition.type.Label(value = "IDZapisnikPregledOcjena")
    private java.lang.Integer IDZapisnikPregledOcjena;
    @org.kie.api.definition.type.Label(value = "OpisZapisnika")
-   private java.lang.String opisZapisnika;
+   private java.lang.String OpisZapisnika;
    @org.kie.api.definition.type.Label(value = "DatumZapisnika")
-   private java.util.Date datumZapisnika;
+   private java.util.Date DatumZapisnika;
 
    public ZapisnikPregledOcjena()
    {
@@ -34,30 +34,30 @@ public class ZapisnikPregledOcjena implements java.io.Serializable
 
    public java.lang.String getOpisZapisnika()
    {
-      return this.opisZapisnika;
+      return this.OpisZapisnika;
    }
 
    public void setOpisZapisnika(java.lang.String opisZapisnika)
    {
-      this.opisZapisnika = opisZapisnika;
+      this.OpisZapisnika = opisZapisnika;
    }
 
    public java.util.Date getDatumZapisnika()
    {
-      return this.datumZapisnika;
+      return this.DatumZapisnika;
    }
 
    public void setDatumZapisnika(java.util.Date datumZapisnika)
    {
-      this.datumZapisnika = datumZapisnika;
+      this.DatumZapisnika = datumZapisnika;
    }
 
    public ZapisnikPregledOcjena(java.lang.Integer IDZapisnikPregledOcjena,
          java.lang.String opisZapisnika, java.util.Date datumZapisnika)
    {
       this.IDZapisnikPregledOcjena = IDZapisnikPregledOcjena;
-      this.opisZapisnika = opisZapisnika;
-      this.datumZapisnika = datumZapisnika;
+      this.OpisZapisnika = opisZapisnika;
+      this.DatumZapisnika = datumZapisnika;
    }
 
 }
