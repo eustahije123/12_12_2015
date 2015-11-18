@@ -41,8 +41,11 @@ public class PredmetNabave implements java.io.Serializable
    @org.kie.api.definition.type.Label("KontrolaRacunskePogreske")
    private java.lang.Boolean kontrolaRacunskePogreske;
 
-   @org.kie.api.definition.type.Label(value = "IDZapisnikPregledOcjena")
+   @org.kie.api.definition.type.Label("IDZapisnikPregledOcjena")
    private nabavahz.otvoreni.ZapisnikPregledOcjena IDZapisnikPregledOcjena;
+
+   @org.kie.api.definition.type.Label(value = "OdlukaOdabirZalba")
+   private java.lang.Boolean odlukaOdabirZalba;
 
    public PredmetNabave()
    {
@@ -187,6 +190,16 @@ public class PredmetNabave implements java.io.Serializable
       this.IDZapisnikPregledOcjena = IDZapisnikPregledOcjena;
    }
 
+   public java.lang.Boolean getOdlukaOdabirZalba()
+   {
+      return this.odlukaOdabirZalba;
+   }
+
+   public void setOdlukaOdabirZalba(java.lang.Boolean odlukaOdabirZalba)
+   {
+      this.odlukaOdabirZalba = odlukaOdabirZalba;
+   }
+
    public PredmetNabave(java.lang.Integer IDPredmeta, java.lang.String EBN,
          java.lang.String OpisPredmeta,
          nabavahz.otvoreni.InternaOdluka IDInternaOdluka,
@@ -195,7 +208,8 @@ public class PredmetNabave implements java.io.Serializable
          nabavahz.otvoreni.Pojasnjenje IDPojasnjenje,
          java.util.List<nabavahz.otvoreni.PonudaZalba> IDPonudaZalba,
          java.lang.Boolean kontrolaRacunskePogreske,
-         nabavahz.otvoreni.ZapisnikPregledOcjena IDZapisnikPregledOcjena)
+         nabavahz.otvoreni.ZapisnikPregledOcjena IDZapisnikPregledOcjena,
+         java.lang.Boolean odlukaOdabirZalba)
    {
       this.IDPredmeta = IDPredmeta;
       this.EBN = EBN;
@@ -209,6 +223,7 @@ public class PredmetNabave implements java.io.Serializable
       this.IDPonudaZalba = IDPonudaZalba;
       this.kontrolaRacunskePogreske = kontrolaRacunskePogreske;
       this.IDZapisnikPregledOcjena = IDZapisnikPregledOcjena;
+      this.odlukaOdabirZalba = odlukaOdabirZalba;
    }
 
 }
