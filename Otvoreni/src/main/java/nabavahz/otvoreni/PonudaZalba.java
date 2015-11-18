@@ -15,13 +15,13 @@ public class PonudaZalba implements java.io.Serializable
    @org.kie.api.definition.type.Label(value = "EBN")
    private java.lang.String EBN;
    @org.kie.api.definition.type.Label(value = "DatumPonudaZalba")
-   private java.util.Date datumPonudaZalba;
+   private java.util.Date DatumPonudaZalba;
    @org.kie.api.definition.type.Label(value = "DobavljacPonudaZalba")
-   private java.lang.String dobavljacPonudaZalba;
+   private java.lang.String DobavljacPonudaZalba;
    @org.kie.api.definition.type.Label(value = "Ponuda")
-   private java.lang.Boolean ponuda;
+   private java.lang.Boolean Ponuda;
    @org.kie.api.definition.type.Label(value = "Zalba")
-   private java.lang.Boolean zalba;
+   private java.lang.Boolean Zalba;
 
    public PonudaZalba()
    {
@@ -49,42 +49,42 @@ public class PonudaZalba implements java.io.Serializable
 
    public java.util.Date getDatumPonudaZalba()
    {
-      return this.datumPonudaZalba;
+      return this.DatumPonudaZalba;
    }
 
    public void setDatumPonudaZalba(java.util.Date datumPonudaZalba)
    {
-      this.datumPonudaZalba = datumPonudaZalba;
+      this.DatumPonudaZalba = datumPonudaZalba;
    }
 
    public java.lang.String getDobavljacPonudaZalba()
    {
-      return this.dobavljacPonudaZalba;
+      return this.DobavljacPonudaZalba;
    }
 
    public void setDobavljacPonudaZalba(java.lang.String dobavljacPonudaZalba)
    {
-      this.dobavljacPonudaZalba = dobavljacPonudaZalba;
+      this.DobavljacPonudaZalba = dobavljacPonudaZalba;
    }
 
    public java.lang.Boolean getPonuda()
    {
-      return this.ponuda;
+      return this.Ponuda;
    }
 
    public void setPonuda(java.lang.Boolean ponuda)
    {
-      this.ponuda = ponuda;
+      this.Ponuda = ponuda;
    }
 
    public java.lang.Boolean getZalba()
    {
-      return this.zalba;
+      return this.Zalba;
    }
 
    public void setZalba(java.lang.Boolean zalba)
    {
-      this.zalba = zalba;
+      this.Zalba = zalba;
    }
 
    public PonudaZalba(java.lang.Integer IDPonudaZalba, java.lang.String EBN,
@@ -94,10 +94,10 @@ public class PonudaZalba implements java.io.Serializable
    {
       this.IDPonudaZalba = IDPonudaZalba;
       this.EBN = EBN;
-      this.datumPonudaZalba = datumPonudaZalba;
-      this.dobavljacPonudaZalba = dobavljacPonudaZalba;
-      this.ponuda = ponuda;
-      this.zalba = zalba;
+      this.DatumPonudaZalba = datumPonudaZalba;
+      this.DobavljacPonudaZalba = dobavljacPonudaZalba;
+      this.Ponuda = ponuda;
+      this.Zalba = zalba;
    }
 
 }
