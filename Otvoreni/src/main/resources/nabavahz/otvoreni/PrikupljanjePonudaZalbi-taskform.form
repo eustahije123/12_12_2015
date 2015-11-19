@@ -3,4 +3,5 @@
 <property name="name" value="PrikupljanjePonudaZalbi-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<dataHolder inputId="predmet_nabave_in" name="#A7E690" type="dataModelerEntry" outId="predmet_nabave_out" value="nabavahz.otvoreni.PredmetNabave" id="IDPredmeta"/>
 </form>
