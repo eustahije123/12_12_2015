@@ -58,5 +58,10 @@ quot;"/>
 <property name="outputBinding" value="predmet_nabave_out/OpisPredmeta"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
+<field position="5" name=":decorator_2" type="Separator" id="2039368566">
+<property name="fieldRequired" value="false"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="Separator"/>
+</field>
 <dataHolder inputId="predmet_nabave_in" name="#A7E690" type="dataModelerEntry" outId="predmet_nabave_out" value="nabavahz.otvoreni.PredmetNabave" id="IDPredmeta"/>
 </form>
