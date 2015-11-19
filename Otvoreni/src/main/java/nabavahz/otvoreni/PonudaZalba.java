@@ -23,8 +23,11 @@ public class PonudaZalba implements java.io.Serializable
    @org.kie.api.definition.type.Label("Zalba")
    private java.lang.Boolean Zalba;
 
-   @org.kie.api.definition.type.Label(value = "ObrazlozenjeZalba")
+   @org.kie.api.definition.type.Label("ObrazlozenjeZalba")
    private java.lang.String obrazlozenjeZalba;
+
+   @org.kie.api.definition.type.Label(value = "NakonRoka")
+   private java.lang.Boolean nakonRoka;
 
    public PonudaZalba()
    {
@@ -113,10 +116,20 @@ public class PonudaZalba implements java.io.Serializable
       this.obrazlozenjeZalba = obrazlozenjeZalba;
    }
 
+   public java.lang.Boolean getNakonRoka()
+   {
+      return this.nakonRoka;
+   }
+
+   public void setNakonRoka(java.lang.Boolean nakonRoka)
+   {
+      this.nakonRoka = nakonRoka;
+   }
+
    public PonudaZalba(java.lang.Integer IDPonudaZalba, java.lang.String EBN,
          java.util.Date DatumPonudaZalba, java.lang.String DobavljacPonudaZalba,
          java.lang.Boolean Ponuda, java.lang.Boolean Zalba,
-         java.lang.String obrazlozenjeZalba)
+         java.lang.String obrazlozenjeZalba, java.lang.Boolean nakonRoka)
    {
       this.IDPonudaZalba = IDPonudaZalba;
       this.EBN = EBN;
@@ -125,6 +138,7 @@ public class PonudaZalba implements java.io.Serializable
       this.Ponuda = Ponuda;
       this.Zalba = Zalba;
       this.obrazlozenjeZalba = obrazlozenjeZalba;
+      this.nakonRoka = nakonRoka;
    }
 
 }
