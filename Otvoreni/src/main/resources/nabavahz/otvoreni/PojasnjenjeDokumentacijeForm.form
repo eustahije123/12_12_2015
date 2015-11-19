@@ -3,4 +3,5 @@
 <property name="name" value="PojasnjenjeDokumentacijeForm.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<dataHolder inputId="pojasnjenje_in" name="#E9E371" type="dataModelerEntry" outId="pojasnjenje_out" value="nabavahz.otvoreni.Pojasnjenje" id="IDPojasnjenja"/>
 </form>
