@@ -44,8 +44,11 @@ public class PredmetNabave implements java.io.Serializable
    @org.kie.api.definition.type.Label("IDZapisnikPregledOcjena")
    private nabavahz.otvoreni.ZapisnikPregledOcjena IDZapisnikPregledOcjena;
 
-   @org.kie.api.definition.type.Label(value = "OdlukaOdabirZalba")
+   @org.kie.api.definition.type.Label("OdlukaOdabirZalba")
    private java.lang.Boolean OdlukaOdabirZalba;
+
+   @org.kie.api.definition.type.Label(value = "IDOdlukaOdabir")
+   private nabavahz.otvoreni.OdlukaOdabir IDOdlukaOdabir;
 
    public PredmetNabave()
    {
@@ -224,6 +227,44 @@ public class PredmetNabave implements java.io.Serializable
       this.KontrolaRacunskePogreske = kontrolaRacunskePogreske;
       this.IDZapisnikPregledOcjena = IDZapisnikPregledOcjena;
       this.OdlukaOdabirZalba = odlukaOdabirZalba;
+   }
+
+   public nabavahz.otvoreni.OdlukaOdabir getIDOdlukaOdabir()
+   {
+      return this.IDOdlukaOdabir;
+   }
+
+   public void setIDOdlukaOdabir(nabavahz.otvoreni.OdlukaOdabir IDOdlukaOdabir)
+   {
+      this.IDOdlukaOdabir = IDOdlukaOdabir;
+   }
+
+   public PredmetNabave(java.lang.Integer IDPredmeta, java.lang.String EBN,
+         java.lang.String OpisPredmeta,
+         nabavahz.otvoreni.InternaOdluka IDInternaOdluka,
+         java.lang.Boolean AzuriranoPortal, java.lang.Boolean ObjavaEOJN,
+         java.lang.Boolean ObjavaPortal, java.util.Date DatumPredmeta,
+         nabavahz.otvoreni.Pojasnjenje IDPojasnjenje,
+         java.util.List<nabavahz.otvoreni.PonudaZalba> IDPonudaZalba,
+         java.lang.Boolean KontrolaRacunskePogreske,
+         nabavahz.otvoreni.ZapisnikPregledOcjena IDZapisnikPregledOcjena,
+         java.lang.Boolean OdlukaOdabirZalba,
+         nabavahz.otvoreni.OdlukaOdabir IDOdlukaOdabir)
+   {
+      this.IDPredmeta = IDPredmeta;
+      this.EBN = EBN;
+      this.OpisPredmeta = OpisPredmeta;
+      this.IDInternaOdluka = IDInternaOdluka;
+      this.AzuriranoPortal = AzuriranoPortal;
+      this.ObjavaEOJN = ObjavaEOJN;
+      this.ObjavaPortal = ObjavaPortal;
+      this.DatumPredmeta = DatumPredmeta;
+      this.IDPojasnjenje = IDPojasnjenje;
+      this.IDPonudaZalba = IDPonudaZalba;
+      this.KontrolaRacunskePogreske = KontrolaRacunskePogreske;
+      this.IDZapisnikPregledOcjena = IDZapisnikPregledOcjena;
+      this.OdlukaOdabirZalba = OdlukaOdabirZalba;
+      this.IDOdlukaOdabir = IDOdlukaOdabir;
    }
 
 }
