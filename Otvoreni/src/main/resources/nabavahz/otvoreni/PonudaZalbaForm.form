@@ -3,4 +3,5 @@
 <property name="name" value="PonudaZalbaForm.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<dataHolder inputId="ponudazalba_in" name="#9BCAFA" type="dataModelerEntry" outId="ponudazalba_out" value="nabavahz.otvoreni.PonudaZalba" id="IDPonudaZalba"/>
 </form>
