@@ -3,4 +3,5 @@
 <property name="name" value="OdlukaOdabirForm.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<dataHolder inputId="odluka_odabir_in" name="#E9E371" type="dataModelerEntry" outId="odluka_odabir_out" value="nabavahz.otvoreni.OdlukaOdabir" id="IDOdlukaOdabir"/>
 </form>
