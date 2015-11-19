@@ -18,7 +18,7 @@ public class ZapisnikUvidPonude implements java.io.Serializable
    private java.util.Date DatumZapisnika;
 
    @org.kie.api.definition.type.Label(value = "OpisZapisnika")
-   private java.lang.String opisZapisnika;
+   private java.lang.String OpisZapisnika;
 
    public ZapisnikUvidPonude()
    {
@@ -64,12 +64,12 @@ public class ZapisnikUvidPonude implements java.io.Serializable
 
    public java.lang.String getOpisZapisnika()
    {
-      return this.opisZapisnika;
+      return this.OpisZapisnika;
    }
 
    public void setOpisZapisnika(java.lang.String opisZapisnika)
    {
-      this.opisZapisnika = opisZapisnika;
+      this.OpisZapisnika = opisZapisnika;
    }
 
    public ZapisnikUvidPonude(java.lang.Integer IDZapisnikUvidPonude,
@@ -79,7 +79,7 @@ public class ZapisnikUvidPonude implements java.io.Serializable
       this.IDZapisnikUvidPonude = IDZapisnikUvidPonude;
       this.Dobavljac = Dobavljac;
       this.DatumZapisnika = DatumZapisnika;
-      this.opisZapisnika = opisZapisnika;
+      this.OpisZapisnika = opisZapisnika;
    }
 
 }
