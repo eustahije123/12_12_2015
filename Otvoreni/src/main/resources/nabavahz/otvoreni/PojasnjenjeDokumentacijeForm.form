@@ -3,5 +3,42 @@
 <property name="name" value="PojasnjenjeDokumentacijeForm.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="925361185">
+<property name="fieldRequired" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h2&gt;Unos pojasnjenja&lt;/h2&gt;
+quot;quot;dequot;,quot;&lt;h2&gt;Unos pojasnjenja&lt;/h2&gt;
+quot;quot;enquot;,quot;&lt;h2&gt;Unos pojasnjenja&lt;/h2&gt;
+quot;quot;esquot;,quot;&lt;h2&gt;Unos pojasnjenja&lt;/h2&gt;
+quot;quot;frquot;,quot;&lt;h2&gt;Unos pojasnjenja&lt;/h2&gt;
+quot;quot;jaquot;,quot;&lt;h2&gt;Unos pojasnjenja&lt;/h2&gt;
+quot;quot;ptquot;,quot;&lt;h2&gt;Unos pojasnjenja&lt;/h2&gt;
+quot;quot;zhquot;,quot;&lt;h2&gt;Unos pojasnjenja&lt;/h2&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="2" name="IDPojasnjenja_DatumPojasnjenja" type="InputDate" id="1670445861">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;DatumPojasnjenja (IDPojasnjenja)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="pojasnjenje_in/DatumPojasnjenja"/>
+<property name="outputBinding" value="pojasnjenje_out/DatumPojasnjenja"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="3" name="IDPojasnjenja_OpisPojasnjenja" type="InputText" id="1815019885">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;OpisPojasnjenja (IDPojasnjenja)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="pojasnjenje_in/OpisPojasnjenja"/>
+<property name="outputBinding" value="pojasnjenje_out/OpisPojasnjenja"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name=":decorator_1" type="Separator" id="1598209443">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="Separator"/>
+</field>
 <dataHolder inputId="pojasnjenje_in" name="#E9E371" type="dataModelerEntry" outId="pojasnjenje_out" value="nabavahz.otvoreni.Pojasnjenje" id="IDPojasnjenja"/>
 </form>
