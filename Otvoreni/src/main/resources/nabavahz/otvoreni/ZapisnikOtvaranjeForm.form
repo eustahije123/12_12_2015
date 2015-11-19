@@ -3,4 +3,26 @@
 <property name="name" value="ZapisnikOtvaranjeForm.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name="IDZapisnikOtvaranje_datumZapisnikOtvaranje" type="InputDate" id="723509094">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;datumZapisnikOtvaranje (IDZapisnikOtvaranje)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="zapisnik_otvaranje_in/datumZapisnikOtvaranje"/>
+<property name="outputBinding" value="zapisnik_otvaranje_out/datumZapisnikOtvaranje"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="1" name="IDZapisnikOtvaranje_opisZapisnikOtvaranje" type="InputText" id="923117636">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;opisZapisnikOtvaranje (IDZapisnikOtvaranje)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value="100"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="zapisnik_otvaranje_in/opisZapisnikOtvaranje"/>
+<property name="outputBinding" value="zapisnik_otvaranje_out/opisZapisnikOtvaranje"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="zapisnik_otvaranje_in" name="#E9E371" type="dataModelerEntry" outId="zapisnik_otvaranje_out" value="nabavahz.otvoreni.ZapisnikOtvaranje" id="IDZapisnikOtvaranje"/>
 </form>
