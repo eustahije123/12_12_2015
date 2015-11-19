@@ -6,15 +6,7 @@
 <field position="0" name=":decorator_0" type="HTMLLabel" id="1987923575">
 <property name="fieldRequired" value="false"/>
 <property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;h2&gt;Kreiranje odluke o odabiru&lt;/h2&gt;
-quot;quot;dequot;,quot;&lt;h2&gt;Kreiranje odluke o odabiru&lt;/h2&gt;
-quot;quot;enquot;,quot;&lt;h2&gt;Kreiranje odluke o odabiru&lt;/h2&gt;
-quot;quot;esquot;,quot;&lt;h2&gt;Kreiranje odluke o odabiru&lt;/h2&gt;
-quot;quot;frquot;,quot;&lt;h2&gt;Kreiranje odluke o odabiru&lt;/h2&gt;
-quot;quot;jaquot;,quot;&lt;h2&gt;Kreiranje odluke o odabiru&lt;/h2&gt;
-quot;quot;ptquot;,quot;&lt;h2&gt;Kreiranje odluke o odabiru&lt;/h2&gt;
-quot;quot;zhquot;,quot;&lt;h2&gt;Kreiranje odluke o odabiru&lt;/h2&gt;
-quot;"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h2&gt;Kreiranje odluke o odabiru&lt;/h2&gt; quot;quot;dequot;,quot;&lt;h2&gt;Kreiranje odluke o odabiru&lt;/h2&gt; quot;quot;enquot;,quot;&lt;h2&gt;Kreiranje odluke o odabiru&lt;/h2&gt; quot;quot;esquot;,quot;&lt;h2&gt;Kreiranje odluke o odabiru&lt;/h2&gt; quot;quot;frquot;,quot;&lt;h2&gt;Kreiranje odluke o odabiru&lt;/h2&gt; quot;quot;jaquot;,quot;&lt;h2&gt;Kreiranje odluke o odabiru&lt;/h2&gt; quot;quot;ptquot;,quot;&lt;h2&gt;Kreiranje odluke o odabiru&lt;/h2&gt; quot;quot;zhquot;,quot;&lt;h2&gt;Kreiranje odluke o odabiru&lt;/h2&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
 <field position="1" name=":decorator_1" type="Separator" id="1086242174">
@@ -24,7 +16,7 @@ quot;"/>
 </field>
 <field position="2" name="IDPredmeta_EBN" type="InputText" id="98025409">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;EBN (IDPredmeta)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;EBN (IDPredmeta)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
@@ -37,7 +29,7 @@ quot;"/>
 <field position="3" name="IDPredmeta_DatumPredmeta" type="InputDate" id="470709862">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;DatumPredmeta (IDPredmeta)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;DatumPredmeta (IDPredmeta)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
@@ -47,7 +39,7 @@ quot;"/>
 </field>
 <field position="4" name="IDPredmeta_OpisPredmeta" type="InputText" id="189496252">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;OpisPredmeta (IDPredmeta)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;OpisPredmeta (IDPredmeta)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
@@ -62,6 +54,17 @@ quot;"/>
 <property name="fieldRequired" value="false"/>
 <property name="readonly" value="false"/>
 <property name="fieldClass" value="Separator"/>
+</field>
+<field position="6" name="IDPredmeta_IDOdlukaOdabir" type="Subform" id="209899430">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;IDOdlukaOdabir (IDPredmeta)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="predmet_nabave_in/IDOdlukaOdabir"/>
+<property name="outputBinding" value="predmet_nabave_out/IDOdlukaOdabir"/>
+<property name="defaultSubform" value="OdlukaOdabirForm.form"/>
+<property name="fieldClass" value="java.lang.Object"/>
 </field>
 <dataHolder inputId="predmet_nabave_in" name="#A7E690" type="dataModelerEntry" outId="predmet_nabave_out" value="nabavahz.otvoreni.PredmetNabave" id="IDPredmeta"/>
 </form>
