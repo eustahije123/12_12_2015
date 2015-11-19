@@ -39,5 +39,13 @@
 <property name="outputBinding" value="predmet_nabave_out/OpisPredmeta"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
+<field position="3" name="IDPredmeta_KontrolaRacunskePogreske" type="CheckBox" id="516198885">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;KontrolaRacunskePogreske (IDPredmeta)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="predmet_nabave_in/KontrolaRacunskePogreske"/>
+<property name="outputBinding" value="predmet_nabave_out/KontrolaRacunskePogreske"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
 <dataHolder inputId="predmet_nabave_in" name="#A7E690" type="dataModelerEntry" outId="predmet_nabave_out" value="nabavahz.otvoreni.PredmetNabave" id="IDPredmeta"/>
 </form>
