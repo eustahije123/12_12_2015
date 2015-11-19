@@ -10,12 +10,15 @@ public class ZapisnikUvidPonude implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "IDZapisnikUvidPonude")
+   @org.kie.api.definition.type.Label("IDZapisnikUvidPonude")
    private java.lang.Integer IDZapisnikUvidPonude;
-   @org.kie.api.definition.type.Label(value = "Dobavljac")
+   @org.kie.api.definition.type.Label("Dobavljac")
    private java.lang.String Dobavljac;
-   @org.kie.api.definition.type.Label(value = "DatumZapisnika")
+   @org.kie.api.definition.type.Label("DatumZapisnika")
    private java.util.Date DatumZapisnika;
+
+   @org.kie.api.definition.type.Label(value = "OpisZapisnika")
+   private java.lang.String opisZapisnika;
 
    public ZapisnikUvidPonude()
    {
@@ -57,6 +60,26 @@ public class ZapisnikUvidPonude implements java.io.Serializable
       this.IDZapisnikUvidPonude = IDZapisnikUvidPonude;
       this.Dobavljac = dobavljac;
       this.DatumZapisnika = datumZapisnika;
+   }
+
+   public java.lang.String getOpisZapisnika()
+   {
+      return this.opisZapisnika;
+   }
+
+   public void setOpisZapisnika(java.lang.String opisZapisnika)
+   {
+      this.opisZapisnika = opisZapisnika;
+   }
+
+   public ZapisnikUvidPonude(java.lang.Integer IDZapisnikUvidPonude,
+         java.lang.String Dobavljac, java.util.Date DatumZapisnika,
+         java.lang.String opisZapisnika)
+   {
+      this.IDZapisnikUvidPonude = IDZapisnikUvidPonude;
+      this.Dobavljac = Dobavljac;
+      this.DatumZapisnika = DatumZapisnika;
+      this.opisZapisnika = opisZapisnika;
    }
 
 }
