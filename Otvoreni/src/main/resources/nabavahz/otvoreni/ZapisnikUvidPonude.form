@@ -3,5 +3,24 @@
 <property name="name" value="ZapisnikUvidPonude.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="2015750388">
+<property name="fieldRequired" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h2&gt;Zapisnik o uvidu u ponude&lt;/h2&gt;
+quot;quot;dequot;,quot;&lt;h2&gt;Zapisnik o uvidu u ponude&lt;/h2&gt;
+quot;quot;enquot;,quot;&lt;h2&gt;Zapisnik o uvidu u ponude&lt;/h2&gt;
+quot;quot;esquot;,quot;&lt;h2&gt;Zapisnik o uvidu u ponude&lt;/h2&gt;
+quot;quot;frquot;,quot;&lt;h2&gt;Zapisnik o uvidu u ponude&lt;/h2&gt;
+quot;quot;jaquot;,quot;&lt;h2&gt;Zapisnik o uvidu u ponude&lt;/h2&gt;
+quot;quot;ptquot;,quot;&lt;h2&gt;Zapisnik o uvidu u ponude&lt;/h2&gt;
+quot;quot;zhquot;,quot;&lt;h2&gt;Zapisnik o uvidu u ponude&lt;/h2&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="1" name=":decorator_1" type="Separator" id="228543526">
+<property name="fieldRequired" value="false"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="Separator"/>
+</field>
 <dataHolder inputId="zapisnik_uvid_ponude_in" name="#E9E371" type="dataModelerEntry" outId="zapisnik_uvid_ponude_out" value="nabavahz.otvoreni.ZapisnikUvidPonude" id="IDZapisnikUvidPonude"/>
 </form>
