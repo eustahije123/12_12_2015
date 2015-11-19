@@ -3,5 +3,74 @@
 <property name="name" value="PonudaZalbaForm.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="1847693252">
+<property name="fieldRequired" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h2&gt;Unos ponuda i zalbi&lt;/h2&gt;
+quot;quot;dequot;,quot;&lt;h2&gt;Unos ponuda i zalbi&lt;/h2&gt;
+quot;quot;enquot;,quot;&lt;h2&gt;Unos ponuda i zalbi&lt;/h2&gt;
+quot;quot;esquot;,quot;&lt;h2&gt;Unos ponuda i zalbi&lt;/h2&gt;
+quot;quot;frquot;,quot;&lt;h2&gt;Unos ponuda i zalbi&lt;/h2&gt;
+quot;quot;jaquot;,quot;&lt;h2&gt;Unos ponuda i zalbi&lt;/h2&gt;
+quot;quot;ptquot;,quot;&lt;h2&gt;Unos ponuda i zalbi&lt;/h2&gt;
+quot;quot;zhquot;,quot;&lt;h2&gt;Unos ponuda i zalbi&lt;/h2&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="2" name="IDPonudaZalba_EBN" type="InputText" id="417369557">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;EBN (IDPonudaZalba)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="ponudazalba_in/EBN"/>
+<property name="outputBinding" value="ponudazalba_out/EBN"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="IDPonudaZalba_DatumPonudaZalba" type="InputDate" id="1329208374">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;DatumPonudaZalba (IDPonudaZalba)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="ponudazalba_in/DatumPonudaZalba"/>
+<property name="outputBinding" value="ponudazalba_out/DatumPonudaZalba"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="4" name="IDPonudaZalba_DobavljacPonudaZalba" type="InputText" id="2020970219">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;DobavljacPonudaZalba (IDPonudaZalba)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value="80"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="ponudazalba_in/DobavljacPonudaZalba"/>
+<property name="outputBinding" value="ponudazalba_out/DobavljacPonudaZalba"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="IDPonudaZalba_Ponuda" type="CheckBox" id="256954402">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;Ponuda (IDPonudaZalba)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="ponudazalba_in/Ponuda"/>
+<property name="outputBinding" value="ponudazalba_out/Ponuda"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="6" name="IDPonudaZalba_Zalba" type="CheckBox" id="337389960">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;Zalba (IDPonudaZalba)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="ponudazalba_in/Zalba"/>
+<property name="outputBinding" value="ponudazalba_out/Zalba"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="1" name=":decorator_1" type="Separator" id="434495950">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="Separator"/>
+</field>
 <dataHolder inputId="ponudazalba_in" name="#9BCAFA" type="dataModelerEntry" outId="ponudazalba_out" value="nabavahz.otvoreni.PonudaZalba" id="IDPonudaZalba"/>
 </form>
