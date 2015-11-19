@@ -10,18 +10,21 @@ public class PonudaZalba implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "IDPonudaZalba")
+   @org.kie.api.definition.type.Label("IDPonudaZalba")
    private java.lang.Integer IDPonudaZalba;
-   @org.kie.api.definition.type.Label(value = "EBN")
+   @org.kie.api.definition.type.Label("EBN")
    private java.lang.String EBN;
-   @org.kie.api.definition.type.Label(value = "DatumPonudaZalba")
+   @org.kie.api.definition.type.Label("DatumPonudaZalba")
    private java.util.Date DatumPonudaZalba;
-   @org.kie.api.definition.type.Label(value = "DobavljacPonudaZalba")
+   @org.kie.api.definition.type.Label("DobavljacPonudaZalba")
    private java.lang.String DobavljacPonudaZalba;
-   @org.kie.api.definition.type.Label(value = "Ponuda")
+   @org.kie.api.definition.type.Label("Ponuda")
    private java.lang.Boolean Ponuda;
-   @org.kie.api.definition.type.Label(value = "Zalba")
+   @org.kie.api.definition.type.Label("Zalba")
    private java.lang.Boolean Zalba;
+
+   @org.kie.api.definition.type.Label(value = "ObrazlozenjeZalba")
+   private java.lang.String obrazlozenjeZalba;
 
    public PonudaZalba()
    {
@@ -98,6 +101,30 @@ public class PonudaZalba implements java.io.Serializable
       this.DobavljacPonudaZalba = dobavljacPonudaZalba;
       this.Ponuda = ponuda;
       this.Zalba = zalba;
+   }
+
+   public java.lang.String getObrazlozenjeZalba()
+   {
+      return this.obrazlozenjeZalba;
+   }
+
+   public void setObrazlozenjeZalba(java.lang.String obrazlozenjeZalba)
+   {
+      this.obrazlozenjeZalba = obrazlozenjeZalba;
+   }
+
+   public PonudaZalba(java.lang.Integer IDPonudaZalba, java.lang.String EBN,
+         java.util.Date DatumPonudaZalba, java.lang.String DobavljacPonudaZalba,
+         java.lang.Boolean Ponuda, java.lang.Boolean Zalba,
+         java.lang.String obrazlozenjeZalba)
+   {
+      this.IDPonudaZalba = IDPonudaZalba;
+      this.EBN = EBN;
+      this.DatumPonudaZalba = DatumPonudaZalba;
+      this.DobavljacPonudaZalba = DobavljacPonudaZalba;
+      this.Ponuda = Ponuda;
+      this.Zalba = Zalba;
+      this.obrazlozenjeZalba = obrazlozenjeZalba;
    }
 
 }
