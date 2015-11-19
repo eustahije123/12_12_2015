@@ -50,8 +50,11 @@ public class PredmetNabave implements java.io.Serializable
    @org.kie.api.definition.type.Label("IDOdlukaOdabir")
    private nabavahz.otvoreni.OdlukaOdabir IDOdlukaOdabir;
 
-   @org.kie.api.definition.type.Label(value = "IDZapisnikUvidPonude")
+   @org.kie.api.definition.type.Label("IDZapisnikUvidPonude")
    private nabavahz.otvoreni.ZapisnikUvidPonude IDZapisnikUvidPonude;
+
+   @org.kie.api.definition.type.Label(value = "ZalbaOdabir")
+   private java.lang.Boolean zalbaOdabir;
 
    public PredmetNabave()
    {
@@ -253,6 +256,16 @@ public class PredmetNabave implements java.io.Serializable
       this.IDZapisnikUvidPonude = IDZapisnikUvidPonude;
    }
 
+   public java.lang.Boolean getZalbaOdabir()
+   {
+      return this.zalbaOdabir;
+   }
+
+   public void setZalbaOdabir(java.lang.Boolean zalbaOdabir)
+   {
+      this.zalbaOdabir = zalbaOdabir;
+   }
+
    public PredmetNabave(java.lang.Integer IDPredmeta, java.lang.String EBN,
          java.lang.String OpisPredmeta,
          nabavahz.otvoreni.InternaOdluka IDInternaOdluka,
@@ -264,7 +277,8 @@ public class PredmetNabave implements java.io.Serializable
          nabavahz.otvoreni.ZapisnikPregledOcjena IDZapisnikPregledOcjena,
          java.lang.Boolean OdlukaOdabirZalba,
          nabavahz.otvoreni.OdlukaOdabir IDOdlukaOdabir,
-         nabavahz.otvoreni.ZapisnikUvidPonude IDZapisnikUvidPonude)
+         nabavahz.otvoreni.ZapisnikUvidPonude IDZapisnikUvidPonude,
+         java.lang.Boolean zalbaOdabir)
    {
       this.IDPredmeta = IDPredmeta;
       this.EBN = EBN;
@@ -281,6 +295,7 @@ public class PredmetNabave implements java.io.Serializable
       this.OdlukaOdabirZalba = OdlukaOdabirZalba;
       this.IDOdlukaOdabir = IDOdlukaOdabir;
       this.IDZapisnikUvidPonude = IDZapisnikUvidPonude;
+      this.zalbaOdabir = zalbaOdabir;
    }
 
 }
