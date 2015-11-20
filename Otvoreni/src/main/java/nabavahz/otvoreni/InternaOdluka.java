@@ -17,8 +17,17 @@ public class InternaOdluka implements java.io.Serializable
    @org.kie.api.definition.type.Label("OpisInterneOdluke")
    private java.lang.String OpisInterneOdluke;
 
-   @org.kie.api.definition.type.Label(value = "IDPredstavnici")
+   @org.kie.api.definition.type.Label("IDPredstavnici")
    private java.util.List<nabavahz.otvoreni.Predstavnici> IDPredstavnici;
+
+   @org.kie.api.definition.type.Label(value = "ImePrezime")
+   private java.lang.String imePrezime;
+
+   @org.kie.api.definition.type.Label(value = "ImePrezime1")
+   private java.lang.String imePrezime1;
+
+   @org.kie.api.definition.type.Label(value = "ImePrezime2")
+   private java.lang.String imePrezime2;
 
    public InternaOdluka()
    {
@@ -73,6 +82,51 @@ public class InternaOdluka implements java.io.Serializable
       this.DatumInterneOdluke = datumInterneOdluke;
       this.OpisInterneOdluke = opisInterneOdluke;
       this.IDPredstavnici = IDPredstavnici;
+   }
+
+   public java.lang.String getImePrezime()
+   {
+      return this.imePrezime;
+   }
+
+   public void setImePrezime(java.lang.String imePrezime)
+   {
+      this.imePrezime = imePrezime;
+   }
+
+   public java.lang.String getImePrezime1()
+   {
+      return this.imePrezime1;
+   }
+
+   public void setImePrezime1(java.lang.String imePrezime1)
+   {
+      this.imePrezime1 = imePrezime1;
+   }
+
+   public java.lang.String getImePrezime2()
+   {
+      return this.imePrezime2;
+   }
+
+   public void setImePrezime2(java.lang.String imePrezime2)
+   {
+      this.imePrezime2 = imePrezime2;
+   }
+
+   public InternaOdluka(java.lang.Integer IDInternaOdluka,
+         java.util.Date DatumInterneOdluke, java.lang.String OpisInterneOdluke,
+         java.util.List<nabavahz.otvoreni.Predstavnici> IDPredstavnici,
+         java.lang.String imePrezime, java.lang.String imePrezime1,
+         java.lang.String imePrezime2)
+   {
+      this.IDInternaOdluka = IDInternaOdluka;
+      this.DatumInterneOdluke = DatumInterneOdluke;
+      this.OpisInterneOdluke = OpisInterneOdluke;
+      this.IDPredstavnici = IDPredstavnici;
+      this.imePrezime = imePrezime;
+      this.imePrezime1 = imePrezime1;
+      this.imePrezime2 = imePrezime2;
    }
 
 }
