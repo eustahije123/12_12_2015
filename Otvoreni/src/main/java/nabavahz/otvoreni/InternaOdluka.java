@@ -17,9 +17,6 @@ public class InternaOdluka implements java.io.Serializable
    @org.kie.api.definition.type.Label("OpisInterneOdluke")
    private java.lang.String OpisInterneOdluke;
 
-   @org.kie.api.definition.type.Label("IDPredstavnici")
-   private java.util.List<nabavahz.otvoreni.Predstavnici> IDPredstavnici;
-
    @org.kie.api.definition.type.Label(value = "ImePrezime")
    private java.lang.String ImePrezime;
 
@@ -63,25 +60,12 @@ public class InternaOdluka implements java.io.Serializable
       this.OpisInterneOdluke = opisInterneOdluke;
    }
 
-   public java.util.List<nabavahz.otvoreni.Predstavnici> getIDPredstavnici()
-   {
-      return this.IDPredstavnici;
-   }
-
-   public void setIDPredstavnici(
-         java.util.List<nabavahz.otvoreni.Predstavnici> IDPredstavnici)
-   {
-      this.IDPredstavnici = IDPredstavnici;
-   }
-
    public InternaOdluka(java.lang.Integer IDInternaOdluka,
-         java.util.Date datumInterneOdluke, java.lang.String opisInterneOdluke,
-         java.util.List<nabavahz.otvoreni.Predstavnici> IDPredstavnici)
+         java.util.Date datumInterneOdluke, java.lang.String opisInterneOdluke)
    {
       this.IDInternaOdluka = IDInternaOdluka;
       this.DatumInterneOdluke = datumInterneOdluke;
       this.OpisInterneOdluke = opisInterneOdluke;
-      this.IDPredstavnici = IDPredstavnici;
    }
 
    public java.lang.String getImePrezime()
@@ -116,14 +100,12 @@ public class InternaOdluka implements java.io.Serializable
 
    public InternaOdluka(java.lang.Integer IDInternaOdluka,
          java.util.Date DatumInterneOdluke, java.lang.String OpisInterneOdluke,
-         java.util.List<nabavahz.otvoreni.Predstavnici> IDPredstavnici,
          java.lang.String imePrezime, java.lang.String imePrezime1,
          java.lang.String imePrezime2)
    {
       this.IDInternaOdluka = IDInternaOdluka;
       this.DatumInterneOdluke = DatumInterneOdluke;
       this.OpisInterneOdluke = OpisInterneOdluke;
-      this.IDPredstavnici = IDPredstavnici;
       this.ImePrezime = imePrezime;
       this.ImePrezime1 = imePrezime1;
       this.ImePrezime2 = imePrezime2;
