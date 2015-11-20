@@ -207,7 +207,6 @@ public class PredmetNabave implements java.io.Serializable
          java.lang.Boolean AzuriranoPortal, java.lang.Boolean ObjavaEOJN,
          java.lang.Boolean ObjavaPortal, java.util.Date DatumPredmeta,
          nabavahz.otvoreni.Pojasnjenje IDPojasnjenje,
-         java.util.List<nabavahz.otvoreni.PonudaZalba> IDPonudaZalba,
          java.lang.Boolean kontrolaRacunskePogreske,
          nabavahz.otvoreni.ZapisnikPregledOcjena IDZapisnikPregledOcjena,
          java.lang.Boolean odlukaOdabirZalba)
@@ -221,7 +220,6 @@ public class PredmetNabave implements java.io.Serializable
       this.ObjavaPortal = ObjavaPortal;
       this.DatumPredmeta = DatumPredmeta;
       this.IDPojasnjenje = IDPojasnjenje;
-      this.IDPonudaZalba = IDPonudaZalba;
       this.KontrolaRacunskePogreske = kontrolaRacunskePogreske;
       this.IDZapisnikPregledOcjena = IDZapisnikPregledOcjena;
       this.OdlukaOdabirZalba = odlukaOdabirZalba;
