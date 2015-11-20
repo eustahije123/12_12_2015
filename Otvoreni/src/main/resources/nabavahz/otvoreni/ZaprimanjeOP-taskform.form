@@ -42,32 +42,19 @@
 <property name="outputBinding" value="predmet_nabave_out/OpisPredmeta"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="4" name="1321985035" type="MultipleSubform" id="1321985035">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;MultipleSubform3quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
-<property name="defaultSubform" value="InternaOdlukaForm.form"/>
-<property name="previewSubform" value="InternaOdlukaForm.form"/>
-<property name="tableSubform" value="InternaOdlukaForm.form"/>
-<property name="newItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="addItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="cancelItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="deleteItems" value="false"/>
-<property name="updateItems" value="false"/>
-<property name="visualizeItems" value="false"/>
-<property name="hideCreateItem" value="false"/>
-<property name="expanded" value="false"/>
-<property name="enableTableEnterData" value="false"/>
-<property name="fieldClass" value="java.util.List"/>
-</field>
 <field position="3" name=":decorator_0" type="Separator" id="1906270687">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
 <property name="fieldClass" value="Separator"/>
+</field>
+<field position="4" name="IDPredmeta_IDInternaOdluka" type="Subform" id="929527274">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;IDInternaOdluka (IDPredmeta)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="predmet_nabave_in/IDInternaOdluka"/>
+<property name="outputBinding" value="predmet_nabave_out/IDInternaOdluka"/>
+<property name="fieldClass" value="java.lang.Object"/>
 </field>
 <dataHolder inputId="predmet_nabave_in" name="#E9E371" type="dataModelerEntry" outId="predmet_nabave_out" value="nabavahz.otvoreni.PredmetNabave" id="IDPredmeta"/>
 </form>
