@@ -21,13 +21,13 @@ public class InternaOdluka implements java.io.Serializable
    private java.util.List<nabavahz.otvoreni.Predstavnici> IDPredstavnici;
 
    @org.kie.api.definition.type.Label(value = "ImePrezime")
-   private java.lang.String imePrezime;
+   private java.lang.String ImePrezime;
 
    @org.kie.api.definition.type.Label(value = "ImePrezime1")
-   private java.lang.String imePrezime1;
+   private java.lang.String ImePrezime1;
 
    @org.kie.api.definition.type.Label(value = "ImePrezime2")
-   private java.lang.String imePrezime2;
+   private java.lang.String ImePrezime2;
 
    public InternaOdluka()
    {
@@ -86,32 +86,32 @@ public class InternaOdluka implements java.io.Serializable
 
    public java.lang.String getImePrezime()
    {
-      return this.imePrezime;
+      return this.ImePrezime;
    }
 
    public void setImePrezime(java.lang.String imePrezime)
    {
-      this.imePrezime = imePrezime;
+      this.ImePrezime = imePrezime;
    }
 
    public java.lang.String getImePrezime1()
    {
-      return this.imePrezime1;
+      return this.ImePrezime1;
    }
 
    public void setImePrezime1(java.lang.String imePrezime1)
    {
-      this.imePrezime1 = imePrezime1;
+      this.ImePrezime1 = imePrezime1;
    }
 
    public java.lang.String getImePrezime2()
    {
-      return this.imePrezime2;
+      return this.ImePrezime2;
    }
 
    public void setImePrezime2(java.lang.String imePrezime2)
    {
-      this.imePrezime2 = imePrezime2;
+      this.ImePrezime2 = imePrezime2;
    }
 
    public InternaOdluka(java.lang.Integer IDInternaOdluka,
@@ -124,9 +124,9 @@ public class InternaOdluka implements java.io.Serializable
       this.DatumInterneOdluke = DatumInterneOdluke;
       this.OpisInterneOdluke = OpisInterneOdluke;
       this.IDPredstavnici = IDPredstavnici;
-      this.imePrezime = imePrezime;
-      this.imePrezime1 = imePrezime1;
-      this.imePrezime2 = imePrezime2;
+      this.ImePrezime = imePrezime;
+      this.ImePrezime1 = imePrezime1;
+      this.ImePrezime2 = imePrezime2;
    }
 
 }
