@@ -36,7 +36,7 @@ public class PredmetNabave implements java.io.Serializable
    private nabavahz.otvoreni.Pojasnjenje IDPojasnjenje;
 
    @org.kie.api.definition.type.Label("IDPonudaZalba")
-   private java.util.List<nabavahz.otvoreni.PonudaZalba> IDPonudaZalba;
+   private PonudaZalba IDPonudaZalba;
 
    @org.kie.api.definition.type.Label("KontrolaRacunskePogreske")
    private java.lang.Boolean KontrolaRacunskePogreske;
@@ -56,7 +56,7 @@ public class PredmetNabave implements java.io.Serializable
    @org.kie.api.definition.type.Label("ZalbaOdabir")
    private java.lang.Boolean zalbaOdabir;
 
-   @org.kie.api.definition.type.Label(value = "IDZapisnikOtvaranje")
+   @org.kie.api.definition.type.Label("IDZapisnikOtvaranje")
    private nabavahz.otvoreni.ZapisnikOtvaranje IDZapisnikOtvaranje;
 
    public PredmetNabave()
@@ -169,17 +169,6 @@ public class PredmetNabave implements java.io.Serializable
       this.IDPojasnjenje = IDPojasnjenje;
    }
 
-   public java.util.List<nabavahz.otvoreni.PonudaZalba> getIDPonudaZalba()
-   {
-      return this.IDPonudaZalba;
-   }
-
-   public void setIDPonudaZalba(
-         java.util.List<nabavahz.otvoreni.PonudaZalba> IDPonudaZalba)
-   {
-      this.IDPonudaZalba = IDPonudaZalba;
-   }
-
    public java.lang.Boolean getKontrolaRacunskePogreske()
    {
       return this.KontrolaRacunskePogreske;
@@ -280,13 +269,23 @@ public class PredmetNabave implements java.io.Serializable
       this.IDZapisnikOtvaranje = IDZapisnikOtvaranje;
    }
 
+   public nabavahz.otvoreni.PonudaZalba getIDPonudaZalba()
+   {
+      return this.IDPonudaZalba;
+   }
+
+   public void setIDPonudaZalba(nabavahz.otvoreni.PonudaZalba IDPonudaZalba)
+   {
+      this.IDPonudaZalba = IDPonudaZalba;
+   }
+
    public PredmetNabave(java.lang.Integer IDPredmeta, java.lang.String EBN,
          java.lang.String OpisPredmeta,
          nabavahz.otvoreni.InternaOdluka IDInternaOdluka,
          java.lang.Boolean AzuriranoPortal, java.lang.Boolean ObjavaEOJN,
          java.lang.Boolean ObjavaPortal, java.util.Date DatumPredmeta,
          nabavahz.otvoreni.Pojasnjenje IDPojasnjenje,
-         java.util.List<nabavahz.otvoreni.PonudaZalba> IDPonudaZalba,
+         nabavahz.otvoreni.PonudaZalba IDPonudaZalba,
          java.lang.Boolean KontrolaRacunskePogreske,
          nabavahz.otvoreni.ZapisnikPregledOcjena IDZapisnikPregledOcjena,
          java.lang.Boolean OdlukaOdabirZalba,
