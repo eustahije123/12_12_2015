@@ -112,12 +112,12 @@
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
       <bpmn2:dataInputAssociation id="_pB3B2pBdEeWf9qR3HKD_lQ">
-        <bpmn2:sourceRef>predmet_nabave_gl</bpmn2:sourceRef>
+        <bpmn2:sourceRef>predmetNabave_gl</bpmn2:sourceRef>
         <bpmn2:targetRef>_720EC296-20BD-4D62-B0F2-39A5A809F61B_predmet_nabave_inInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
       <bpmn2:dataOutputAssociation id="_pB3B25BdEeWf9qR3HKD_lQ">
         <bpmn2:sourceRef>_720EC296-20BD-4D62-B0F2-39A5A809F61B_predmet_nabave_outOutputX</bpmn2:sourceRef>
-        <bpmn2:targetRef>predmet_nabave_gl</bpmn2:targetRef>
+        <bpmn2:targetRef>predmetNabave_gl</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
       <bpmn2:script><![CDATA[System.out.println("Otvaranje");]]></bpmn2:script>
     </bpmn2:scriptTask>
