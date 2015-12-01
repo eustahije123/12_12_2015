@@ -78,13 +78,12 @@ public class PonudaZalba implements java.io.Serializable
       this.Zalba = zalba;
    }
 
-   public PonudaZalba(java.lang.Integer IDPonudaZalba, java.lang.String EBN,
+   public PonudaZalba(java.lang.Integer IDPonudaZalba,
          java.util.Date datumPonudaZalba,
          java.lang.String dobavljacPonudaZalba, java.lang.Boolean ponuda,
          java.lang.Boolean zalba)
    {
       this.IDPonudaZalba = IDPonudaZalba;
-      this.EBN = EBN;
       this.DatumPonudaZalba = datumPonudaZalba;
       this.DobavljacPonudaZalba = dobavljacPonudaZalba;
       this.Ponuda = ponuda;
@@ -101,31 +100,17 @@ public class PonudaZalba implements java.io.Serializable
       this.ObrazlozenjeZalba = obrazlozenjeZalba;
    }
 
-   public PonudaZalba(java.lang.Integer IDPonudaZalba, java.lang.String EBN,
+   public PonudaZalba(java.lang.Integer IDPonudaZalba,
          java.util.Date DatumPonudaZalba, java.lang.String DobavljacPonudaZalba,
          java.lang.Boolean Ponuda, java.lang.Boolean Zalba,
          java.lang.String obrazlozenjeZalba)
    {
       this.IDPonudaZalba = IDPonudaZalba;
-      this.EBN = EBN;
       this.DatumPonudaZalba = DatumPonudaZalba;
       this.DobavljacPonudaZalba = DobavljacPonudaZalba;
       this.Ponuda = Ponuda;
       this.Zalba = Zalba;
       this.ObrazlozenjeZalba = obrazlozenjeZalba;
-   }
-
-   public PonudaZalba(java.lang.Integer IDPonudaZalba,
-         java.util.Date DatumPonudaZalba, java.lang.String DobavljacPonudaZalba,
-         java.lang.Boolean Ponuda, java.lang.Boolean Zalba,
-         java.lang.String ObrazlozenjeZalba)
-   {
-      this.IDPonudaZalba = IDPonudaZalba;
-      this.DatumPonudaZalba = DatumPonudaZalba;
-      this.DobavljacPonudaZalba = DobavljacPonudaZalba;
-      this.Ponuda = Ponuda;
-      this.Zalba = Zalba;
-      this.ObrazlozenjeZalba = ObrazlozenjeZalba;
    }
 
 }
