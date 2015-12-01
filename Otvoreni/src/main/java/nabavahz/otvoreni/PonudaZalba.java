@@ -12,8 +12,6 @@ public class PonudaZalba implements java.io.Serializable
 
    @org.kie.api.definition.type.Label("IDPonudaZalba")
    private java.lang.Integer IDPonudaZalba;
-   @org.kie.api.definition.type.Label("EBN")
-   private java.lang.String EBN;
    @org.kie.api.definition.type.Label("DatumPonudaZalba")
    private java.util.Date DatumPonudaZalba;
    @org.kie.api.definition.type.Label("DobavljacPonudaZalba")
@@ -38,16 +36,6 @@ public class PonudaZalba implements java.io.Serializable
    public void setIDPonudaZalba(java.lang.Integer IDPonudaZalba)
    {
       this.IDPonudaZalba = IDPonudaZalba;
-   }
-
-   public java.lang.String getEBN()
-   {
-      return this.EBN;
-   }
-
-   public void setEBN(java.lang.String EBN)
-   {
-      this.EBN = EBN;
    }
 
    public java.util.Date getDatumPonudaZalba()
@@ -125,6 +113,19 @@ public class PonudaZalba implements java.io.Serializable
       this.Ponuda = Ponuda;
       this.Zalba = Zalba;
       this.ObrazlozenjeZalba = obrazlozenjeZalba;
+   }
+
+   public PonudaZalba(java.lang.Integer IDPonudaZalba,
+         java.util.Date DatumPonudaZalba, java.lang.String DobavljacPonudaZalba,
+         java.lang.Boolean Ponuda, java.lang.Boolean Zalba,
+         java.lang.String ObrazlozenjeZalba)
+   {
+      this.IDPonudaZalba = IDPonudaZalba;
+      this.DatumPonudaZalba = DatumPonudaZalba;
+      this.DobavljacPonudaZalba = DobavljacPonudaZalba;
+      this.Ponuda = Ponuda;
+      this.Zalba = Zalba;
+      this.ObrazlozenjeZalba = ObrazlozenjeZalba;
    }
 
 }
