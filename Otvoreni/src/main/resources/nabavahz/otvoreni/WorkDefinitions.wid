@@ -3,7 +3,7 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
 
 [
     [
-   "name" : "WorkItemHandler2",
+   "name" : "WorkItemHandler3",
     "displayName" : "Pojasnjenje",
     "icon" : "defaultemailicon.gif"
   ], 
