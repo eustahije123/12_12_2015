@@ -15,19 +15,9 @@
 <property name="readonly" value="false"/>
 <property name="fieldClass" value="Separator"/>
 </field>
-<field position="5" name="" type="InputText" id="2020970219">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
 <field position="6" name="IDPonudaZalba_Ponuda" type="CheckBox" id="256954402">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;enquot;,quot;Ponuda (IDPonudaZalba)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="ponudazalba_in/Ponuda"/>
@@ -43,8 +33,9 @@
 <property name="outputBinding" value="ponudazalba_out/Zalba"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="8" name="IDPonudaZalba_DatumPonudaZalba" type="InputDate" id="848880374">
+<field position="5" name="IDPonudaZalba_DatumPonudaZalba" type="InputDate" id="848880374">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;enquot;,quot;DatumPonudaZalba (IDPonudaZalba)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="ponudazalba_in/DatumPonudaZalba"/>
