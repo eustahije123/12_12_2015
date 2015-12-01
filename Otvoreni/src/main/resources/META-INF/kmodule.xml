@@ -4,6 +4,7 @@
       <workItemHandlers>
         <workItemHandler type="WorkItemHandler1.WorkItemHandler1" name="WorkItemHandler1"/>
         <workItemHandler type="WorkItemHandler2.WorkItemHandler2" name="WorkItemHandler2"/>
+        <workItemHandler type="WorkItemHandler3.WorkItemHandler3" name="WorkItemHandler3"/>
       </workItemHandlers>
     </ksession>
   </kbase>
