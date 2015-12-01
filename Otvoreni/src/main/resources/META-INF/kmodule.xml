@@ -7,7 +7,13 @@
       </workItemHandlers>
     </ksession>
   </kbase>
-  <kbase name="kbase3" default="true" eventProcessingMode="stream" equalsBehavior="identity"/>
+  <kbase name="kbase3" default="true" eventProcessingMode="stream" equalsBehavior="identity">
+    <ksession name="mysession3" type="stateful" default="true" clockType="realtime">
+      <workItemHandlers>
+        <workItemHandler type="WorkItemHandler3.WorkItemHandler3" name="WorkItemHandler3"/>
+      </workItemHandlers>
+    </ksession>
+  </kbase>
   <kbase name="kbase2" default="false" eventProcessingMode="stream" equalsBehavior="identity">
     <ksession name="mysession2" type="stateful" default="true" clockType="realtime">
       <workItemHandlers>
