@@ -1,15 +1,30 @@
 <kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <kbase name="kbase4" default="true" eventProcessingMode="stream" equalsBehavior="identity">
+  <kbase name="kbase4" default="false" eventProcessingMode="stream" equalsBehavior="identity">
     <ksession name="mysession4" type="stateful" default="true" clockType="realtime">
       <workItemHandlers>
         <workItemHandler type="WorkItemHanorkItedler4.WmHandler4" name="WorkItemHandler4"/>
       </workItemHandlers>
     </ksession>
   </kbase>
-  <kbase name="kbase" default="false" eventProcessingMode="stream" equalsBehavior="identity">
+  <kbase name="kbase" default="true" eventProcessingMode="stream" equalsBehavior="identity">
     <ksession name="mysession1" type="stateful" default="true" clockType="realtime">
       <workItemHandlers>
         <workItemHandler type="WorkItemHandler1.WorkItemHandler1" name="WorkItemHandler1"/>
+      </workItemHandlers>
+    </ksession>
+    <ksession name="mysession2" type="stateful" default="true" clockType="realtime">
+      <workItemHandlers>
+        <workItemHandler type="WorkItemHandler2.WorkItemHandler2" name="WorkItemHandler2"/>
+      </workItemHandlers>
+    </ksession>
+    <ksession name="mysession3" type="stateful" default="true" clockType="realtime">
+      <workItemHandlers>
+        <workItemHandler type="WorkItemHandler3.WorkItemHandler3" name="WorkItemHandler3"/>
+      </workItemHandlers>
+    </ksession>
+    <ksession name="mysession4" type="stateful" default="true" clockType="realtime">
+      <workItemHandlers>
+        <workItemHandler type="WorkItemHandler4.WorkItemHandler4" name="WorkItemHandler4"/>
       </workItemHandlers>
     </ksession>
   </kbase>
