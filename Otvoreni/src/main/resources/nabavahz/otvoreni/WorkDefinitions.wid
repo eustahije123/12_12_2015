@@ -4,7 +4,7 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
 [
       [
    "name" : "WorkItemHandler1",
-    "displayName" : "WorkItemHandler1",
+    "displayName" : "Objava postupka EOJN",
     "icon" : "defaultemailicon.gif"
   ], 
     
