@@ -3,6 +3,7 @@
     <ksession name="mysession1" type="stateful" default="true" clockType="realtime">
       <workItemHandlers>
         <workItemHandler type="WorkItemHandler1.WorkItemHandler1" name="WorkItemHandler1"/>
+        <workItemHandler type="WorkItemHandler2.WorkItemHandler2" name="WorkItemHandler2"/>
       </workItemHandlers>
     </ksession>
   </kbase>
