@@ -59,41 +59,11 @@ public class PredmetNabave implements java.io.Serializable
    @org.kie.api.definition.type.Label("IDZapisnikOtvaranje")
    private nabavahz.otvoreni.ZapisnikOtvaranje IDZapisnikOtvaranje;
 
+   @org.kie.api.definition.type.Label(value = "pojasnjenje")
+   private java.lang.Boolean pojasnjenje;
+
    public PredmetNabave()
    {
-   }
-      public PredmetNabave(java.lang.Integer IDPredmeta, java.lang.String EBN,
-         java.lang.String OpisPredmeta,
-         nabavahz.otvoreni.InternaOdluka IDInternaOdluka,
-         java.lang.Boolean AzuriranoPortal, java.lang.Boolean ObjavaEOJN,
-         java.lang.Boolean ObjavaPortal, java.util.Date DatumPredmeta,
-         nabavahz.otvoreni.Pojasnjenje IDPojasnjenje,
-         nabavahz.otvoreni.PonudaZalba IDPonudaZalba,
-         java.lang.Boolean KontrolaRacunskePogreske,
-         nabavahz.otvoreni.ZapisnikPregledOcjena IDZapisnikPregledOcjena,
-         java.lang.Boolean OdlukaOdabirZalba,
-         nabavahz.otvoreni.OdlukaOdabir IDOdlukaOdabir,
-         nabavahz.otvoreni.ZapisnikUvidPonude IDZapisnikUvidPonude,
-         java.lang.Boolean zalbaOdabir,
-         nabavahz.otvoreni.ZapisnikOtvaranje IDZapisnikOtvaranje)
-   {
-      this.IDPredmeta = IDPredmeta;
-      this.EBN = EBN;
-      this.OpisPredmeta = OpisPredmeta;
-      this.IDInternaOdluka = IDInternaOdluka;
-      this.AzuriranoPortal = AzuriranoPortal;
-      this.ObjavaEOJN = ObjavaEOJN;
-      this.ObjavaPortal = ObjavaPortal;
-      this.DatumPredmeta = DatumPredmeta;
-      this.IDPojasnjenje = IDPojasnjenje;
-      this.IDPonudaZalba = IDPonudaZalba;
-      this.KontrolaRacunskePogreske = KontrolaRacunskePogreske;
-      this.IDZapisnikPregledOcjena = IDZapisnikPregledOcjena;
-      this.OdlukaOdabirZalba = OdlukaOdabirZalba;
-      this.IDOdlukaOdabir = IDOdlukaOdabir;
-      this.IDZapisnikUvidPonude = IDZapisnikUvidPonude;
-      this.zalbaOdabir = zalbaOdabir;
-      this.IDZapisnikOtvaranje = IDZapisnikOtvaranje;
    }
 
    public java.lang.Integer getIDPredmeta()
@@ -270,6 +240,50 @@ public class PredmetNabave implements java.io.Serializable
       this.IDPonudaZalba = IDPonudaZalba;
    }
 
+   public java.lang.Boolean getPojasnjenje()
+   {
+      return this.pojasnjenje;
+   }
 
+   public void setPojasnjenje(java.lang.Boolean pojasnjenje)
+   {
+      this.pojasnjenje = pojasnjenje;
+   }
+
+   public PredmetNabave(java.lang.Integer IDPredmeta, java.lang.String EBN,
+         java.lang.String OpisPredmeta,
+         nabavahz.otvoreni.InternaOdluka IDInternaOdluka,
+         java.lang.Boolean AzuriranoPortal, java.lang.Boolean ObjavaEOJN,
+         java.lang.Boolean ObjavaPortal, java.util.Date DatumPredmeta,
+         nabavahz.otvoreni.Pojasnjenje IDPojasnjenje,
+         nabavahz.otvoreni.PonudaZalba IDPonudaZalba,
+         java.lang.Boolean KontrolaRacunskePogreske,
+         nabavahz.otvoreni.ZapisnikPregledOcjena IDZapisnikPregledOcjena,
+         java.lang.Boolean OdlukaOdabirZalba,
+         nabavahz.otvoreni.OdlukaOdabir IDOdlukaOdabir,
+         nabavahz.otvoreni.ZapisnikUvidPonude IDZapisnikUvidPonude,
+         java.lang.Boolean zalbaOdabir,
+         nabavahz.otvoreni.ZapisnikOtvaranje IDZapisnikOtvaranje,
+         java.lang.Boolean pojasnjenje)
+   {
+      this.IDPredmeta = IDPredmeta;
+      this.EBN = EBN;
+      this.OpisPredmeta = OpisPredmeta;
+      this.IDInternaOdluka = IDInternaOdluka;
+      this.AzuriranoPortal = AzuriranoPortal;
+      this.ObjavaEOJN = ObjavaEOJN;
+      this.ObjavaPortal = ObjavaPortal;
+      this.DatumPredmeta = DatumPredmeta;
+      this.IDPojasnjenje = IDPojasnjenje;
+      this.IDPonudaZalba = IDPonudaZalba;
+      this.KontrolaRacunskePogreske = KontrolaRacunskePogreske;
+      this.IDZapisnikPregledOcjena = IDZapisnikPregledOcjena;
+      this.OdlukaOdabirZalba = OdlukaOdabirZalba;
+      this.IDOdlukaOdabir = IDOdlukaOdabir;
+      this.IDZapisnikUvidPonude = IDZapisnikUvidPonude;
+      this.zalbaOdabir = zalbaOdabir;
+      this.IDZapisnikOtvaranje = IDZapisnikOtvaranje;
+      this.pojasnjenje = pojasnjenje;
+   }
 
 }
