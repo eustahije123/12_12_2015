@@ -23,6 +23,16 @@ public class ZapisnikUvidPonude implements java.io.Serializable
    public ZapisnikUvidPonude()
    {
    }
+   
+    public ZapisnikUvidPonude(java.lang.Integer IDZapisnikUvidPonude,
+         java.lang.String Dobavljac, java.util.Date DatumZapisnika,
+         java.lang.String opisZapisnika)
+   {
+      this.IDZapisnikUvidPonude = IDZapisnikUvidPonude;
+      this.Dobavljac = Dobavljac;
+      this.DatumZapisnika = DatumZapisnika;
+      this.OpisZapisnika = opisZapisnika;
+   }
 
    public java.lang.Integer getIDZapisnikUvidPonude()
    {
@@ -64,14 +74,6 @@ public class ZapisnikUvidPonude implements java.io.Serializable
       this.OpisZapisnika = opisZapisnika;
    }
 
-   public ZapisnikUvidPonude(java.lang.Integer IDZapisnikUvidPonude,
-         java.lang.String Dobavljac, java.util.Date DatumZapisnika,
-         java.lang.String opisZapisnika)
-   {
-      this.IDZapisnikUvidPonude = IDZapisnikUvidPonude;
-      this.Dobavljac = Dobavljac;
-      this.DatumZapisnika = DatumZapisnika;
-      this.OpisZapisnika = opisZapisnika;
-   }
+
 
 }
