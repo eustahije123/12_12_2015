@@ -54,14 +54,6 @@ public class ZapisnikUvidPonude implements java.io.Serializable
       this.DatumZapisnika = datumZapisnika;
    }
 
-   public ZapisnikUvidPonude(java.lang.Integer IDZapisnikUvidPonude,
-         java.lang.String dobavljac, java.util.Date datumZapisnika)
-   {
-      this.IDZapisnikUvidPonude = IDZapisnikUvidPonude;
-      this.Dobavljac = dobavljac;
-      this.DatumZapisnika = datumZapisnika;
-   }
-
    public java.lang.String getOpisZapisnika()
    {
       return this.OpisZapisnika;
