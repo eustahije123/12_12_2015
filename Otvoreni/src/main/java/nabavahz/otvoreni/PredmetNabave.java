@@ -59,8 +59,11 @@ public class PredmetNabave implements java.io.Serializable
    @org.kie.api.definition.type.Label("IDZapisnikOtvaranje")
    private nabavahz.otvoreni.ZapisnikOtvaranje IDZapisnikOtvaranje;
 
-   @org.kie.api.definition.type.Label(value = "pojasnjenje")
+   @org.kie.api.definition.type.Label("pojasnjenje")
    private java.lang.Boolean pojasnjenje;
+
+   @org.kie.api.definition.type.Label(value = "Rok za dostavu ponuda")
+   private java.util.Date rokZaDostavuPonuda;
 
    public PredmetNabave()
    {
@@ -250,6 +253,16 @@ public class PredmetNabave implements java.io.Serializable
       this.pojasnjenje = pojasnjenje;
    }
 
+   public java.util.Date getRokZaDostavuPonuda()
+   {
+      return this.rokZaDostavuPonuda;
+   }
+
+   public void setRokZaDostavuPonuda(java.util.Date rokZaDostavuPonuda)
+   {
+      this.rokZaDostavuPonuda = rokZaDostavuPonuda;
+   }
+
    public PredmetNabave(java.lang.Integer IDPredmeta, java.lang.String EBN,
          java.lang.String OpisPredmeta,
          nabavahz.otvoreni.InternaOdluka IDInternaOdluka,
@@ -264,7 +277,7 @@ public class PredmetNabave implements java.io.Serializable
          nabavahz.otvoreni.ZapisnikUvidPonude IDZapisnikUvidPonude,
          java.lang.Boolean zalbaOdabir,
          nabavahz.otvoreni.ZapisnikOtvaranje IDZapisnikOtvaranje,
-         java.lang.Boolean pojasnjenje)
+         java.lang.Boolean pojasnjenje, java.util.Date rokZaDostavuPonuda)
    {
       this.IDPredmeta = IDPredmeta;
       this.EBN = EBN;
@@ -284,6 +297,7 @@ public class PredmetNabave implements java.io.Serializable
       this.zalbaOdabir = zalbaOdabir;
       this.IDZapisnikOtvaranje = IDZapisnikOtvaranje;
       this.pojasnjenje = pojasnjenje;
+      this.rokZaDostavuPonuda = rokZaDostavuPonuda;
    }
 
 }
