@@ -114,6 +114,7 @@ public class PonudaZalba implements java.io.Serializable
       this.Ponuda = Ponuda;
       this.Zalba = Zalba;
       this.ObrazlozenjeZalba = obrazlozenjeZalba;
+      this.nakonRoka = nakonRoka;
    }
 
    public java.lang.Boolean getNakonRoka()
@@ -123,20 +124,6 @@ public class PonudaZalba implements java.io.Serializable
 
    public void setNakonRoka(java.lang.Boolean nakonRoka)
    {
-      this.nakonRoka = nakonRoka;
-   }
-
-   public PonudaZalba(java.lang.Integer IDPonudaZalba,
-         java.util.Date DatumPonudaZalba, java.lang.String DobavljacPonudaZalba,
-         java.lang.Boolean Ponuda, java.lang.Boolean Zalba,
-         java.lang.String ObrazlozenjeZalba, java.lang.Boolean nakonRoka)
-   {
-      this.IDPonudaZalba = IDPonudaZalba;
-      this.DatumPonudaZalba = DatumPonudaZalba;
-      this.DobavljacPonudaZalba = DobavljacPonudaZalba;
-      this.Ponuda = Ponuda;
-      this.Zalba = Zalba;
-      this.ObrazlozenjeZalba = ObrazlozenjeZalba;
       this.nakonRoka = nakonRoka;
    }
 
