@@ -4,7 +4,7 @@ import java.lang.Number;
 import java.lang.String;
 
 rule "Test"
-	dialect "java"
+	dialect "mvel"
 	when
 		>PonudaZalba( nakonRoka == true )
 	then
