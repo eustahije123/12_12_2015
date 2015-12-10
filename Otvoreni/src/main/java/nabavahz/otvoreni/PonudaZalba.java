@@ -81,18 +81,6 @@ public class PonudaZalba implements java.io.Serializable
       this.Zalba = zalba;
    }
 
-   public PonudaZalba(java.lang.Integer IDPonudaZalba,
-         java.util.Date datumPonudaZalba,
-         java.lang.String dobavljacPonudaZalba, java.lang.Boolean ponuda,
-         java.lang.Boolean zalba)
-   {
-      this.IDPonudaZalba = IDPonudaZalba;
-      this.DatumPonudaZalba = datumPonudaZalba;
-      this.DobavljacPonudaZalba = dobavljacPonudaZalba;
-      this.Ponuda = ponuda;
-      this.Zalba = zalba;
-   }
-
    public java.lang.String getObrazlozenjeZalba()
    {
       return this.ObrazlozenjeZalba;
