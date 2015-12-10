@@ -7,7 +7,7 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
    "name" : "WorkItemHandler5",
     "displayName" : "Provjera ponude",
     "icon" : "defaultemailicon.gif",
-        "results" : [
+        "Results" : [
         "predmetNabave" : new ObjectDataType( "Klase.PredmetNabave")
     ]
   ],
