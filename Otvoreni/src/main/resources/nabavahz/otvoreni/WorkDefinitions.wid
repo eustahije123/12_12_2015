@@ -3,6 +3,15 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
 
 [
     [
+   "name" : "WorkItemHandler5",
+    "displayName" : "Provjera ponude",
+    "icon" : "defaultemailicon.gif",
+        "results" : [
+        "predmetNabave" : new ObjectDataType()
+    ]
+  ],
+    
+    [
    "name" : "WorkItemHandler4",
     "displayName" : "Upotpunjavanje",
     "icon" : "defaultemailicon.gif"
