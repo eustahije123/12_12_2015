@@ -68,6 +68,43 @@ public class PredmetNabave implements java.io.Serializable
    public PredmetNabave()
    {
    }
+   
+      public PredmetNabave(java.lang.Integer IDPredmeta, java.lang.String EBN,
+         java.lang.String OpisPredmeta,
+         nabavahz.otvoreni.InternaOdluka IDInternaOdluka,
+         java.lang.Boolean AzuriranoPortal, java.lang.Boolean ObjavaEOJN,
+         java.lang.Boolean ObjavaPortal, java.util.Date DatumPredmeta,
+         nabavahz.otvoreni.Pojasnjenje IDPojasnjenje,
+         nabavahz.otvoreni.PonudaZalba IDPonudaZalba,
+         java.lang.Boolean KontrolaRacunskePogreske,
+         nabavahz.otvoreni.ZapisnikPregledOcjena IDZapisnikPregledOcjena,
+         java.lang.Boolean OdlukaOdabirZalba,
+         nabavahz.otvoreni.OdlukaOdabir IDOdlukaOdabir,
+         nabavahz.otvoreni.ZapisnikUvidPonude IDZapisnikUvidPonude,
+         java.lang.Boolean zalbaOdabir,
+         nabavahz.otvoreni.ZapisnikOtvaranje IDZapisnikOtvaranje,
+         java.lang.Boolean pojasnjenje, java.util.Date rokZaDostavuPonuda)
+   {
+      this.IDPredmeta = IDPredmeta;
+      this.EBN = EBN;
+      this.OpisPredmeta = OpisPredmeta;
+      this.IDInternaOdluka = IDInternaOdluka;
+      this.AzuriranoPortal = AzuriranoPortal;
+      this.ObjavaEOJN = ObjavaEOJN;
+      this.ObjavaPortal = ObjavaPortal;
+      this.DatumPredmeta = DatumPredmeta;
+      this.IDPojasnjenje = IDPojasnjenje;
+      this.IDPonudaZalba = IDPonudaZalba;
+      this.KontrolaRacunskePogreske = KontrolaRacunskePogreske;
+      this.IDZapisnikPregledOcjena = IDZapisnikPregledOcjena;
+      this.OdlukaOdabirZalba = OdlukaOdabirZalba;
+      this.IDOdlukaOdabir = IDOdlukaOdabir;
+      this.IDZapisnikUvidPonude = IDZapisnikUvidPonude;
+      this.zalbaOdabir = zalbaOdabir;
+      this.IDZapisnikOtvaranje = IDZapisnikOtvaranje;
+      this.pojasnjenje = pojasnjenje;
+      this.rokZaDostavuPonuda = rokZaDostavuPonuda;
+   }
 
    public java.lang.Integer getIDPredmeta()
    {
@@ -263,41 +300,6 @@ public class PredmetNabave implements java.io.Serializable
       this.rokZaDostavuPonuda = rokZaDostavuPonuda;
    }
 
-   public PredmetNabave(java.lang.Integer IDPredmeta, java.lang.String EBN,
-         java.lang.String OpisPredmeta,
-         nabavahz.otvoreni.InternaOdluka IDInternaOdluka,
-         java.lang.Boolean AzuriranoPortal, java.lang.Boolean ObjavaEOJN,
-         java.lang.Boolean ObjavaPortal, java.util.Date DatumPredmeta,
-         nabavahz.otvoreni.Pojasnjenje IDPojasnjenje,
-         nabavahz.otvoreni.PonudaZalba IDPonudaZalba,
-         java.lang.Boolean KontrolaRacunskePogreske,
-         nabavahz.otvoreni.ZapisnikPregledOcjena IDZapisnikPregledOcjena,
-         java.lang.Boolean OdlukaOdabirZalba,
-         nabavahz.otvoreni.OdlukaOdabir IDOdlukaOdabir,
-         nabavahz.otvoreni.ZapisnikUvidPonude IDZapisnikUvidPonude,
-         java.lang.Boolean zalbaOdabir,
-         nabavahz.otvoreni.ZapisnikOtvaranje IDZapisnikOtvaranje,
-         java.lang.Boolean pojasnjenje, java.util.Date rokZaDostavuPonuda)
-   {
-      this.IDPredmeta = IDPredmeta;
-      this.EBN = EBN;
-      this.OpisPredmeta = OpisPredmeta;
-      this.IDInternaOdluka = IDInternaOdluka;
-      this.AzuriranoPortal = AzuriranoPortal;
-      this.ObjavaEOJN = ObjavaEOJN;
-      this.ObjavaPortal = ObjavaPortal;
-      this.DatumPredmeta = DatumPredmeta;
-      this.IDPojasnjenje = IDPojasnjenje;
-      this.IDPonudaZalba = IDPonudaZalba;
-      this.KontrolaRacunskePogreske = KontrolaRacunskePogreske;
-      this.IDZapisnikPregledOcjena = IDZapisnikPregledOcjena;
-      this.OdlukaOdabirZalba = OdlukaOdabirZalba;
-      this.IDOdlukaOdabir = IDOdlukaOdabir;
-      this.IDZapisnikUvidPonude = IDZapisnikUvidPonude;
-      this.zalbaOdabir = zalbaOdabir;
-      this.IDZapisnikOtvaranje = IDZapisnikOtvaranje;
-      this.pojasnjenje = pojasnjenje;
-      this.rokZaDostavuPonuda = rokZaDostavuPonuda;
-   }
+
 
 }
