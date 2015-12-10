@@ -8,7 +8,7 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     "displayName" : "Provjera ponude",
     "icon" : "defaultemailicon.gif",
         "results" : [
-        "predmetNabave" : new ObjectDataType( "Klase.PredmetNabave")
+        "predmetNabave" : new ObjectDataType( "java.lang.ClassCastException:nabavahz.otvoreni.PredmetNabave")
     ]
   ],
     
